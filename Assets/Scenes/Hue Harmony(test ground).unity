@@ -7785,8 +7785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   enemyPrefab: {fileID: 8177133236108799066, guid: 6562fdac56789574289f0a166e3aab09, type: 3}
   baseEnemies: 8
-  enemiesPerSecond: 0.5
-  timeBetweenWaves: 5
+  enemiesPerSecond: 2
+  timeBetweenWaves: 3
   difficualtyScalitingFactor: 0.75
 --- !u!4 &1121242984 stripped
 Transform:
