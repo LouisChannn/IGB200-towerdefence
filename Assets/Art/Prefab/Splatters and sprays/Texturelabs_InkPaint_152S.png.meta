@@ -1,0 +1,7059 @@
+fileFormatVersion: 2
+guid: cfecb2efa2ddab845b6c981d0a73b74d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4751932145294668887
+    second: Texturelabs_InkPaint_152S_0
+  - first:
+      213: 3865537026306746257
+    second: Texturelabs_InkPaint_152S_1
+  - first:
+      213: 8323654840403837597
+    second: Texturelabs_InkPaint_152S_2
+  - first:
+      213: -3992782114991260065
+    second: Texturelabs_InkPaint_152S_3
+  - first:
+      213: 4564271394200971114
+    second: Texturelabs_InkPaint_152S_4
+  - first:
+      213: -7569351947396008503
+    second: Texturelabs_InkPaint_152S_5
+  - first:
+      213: -572360061973333693
+    second: Texturelabs_InkPaint_152S_6
+  - first:
+      213: 2930608257317607979
+    second: Texturelabs_InkPaint_152S_7
+  - first:
+      213: 3184246591206896370
+    second: Texturelabs_InkPaint_152S_8
+  - first:
+      213: 8276141379785602212
+    second: Texturelabs_InkPaint_152S_9
+  - first:
+      213: 3108534285686332760
+    second: Texturelabs_InkPaint_152S_10
+  - first:
+      213: 7056232424033332546
+    second: Texturelabs_InkPaint_152S_11
+  - first:
+      213: -8069030719464506872
+    second: Texturelabs_InkPaint_152S_12
+  - first:
+      213: -315739415879455791
+    second: Texturelabs_InkPaint_152S_13
+  - first:
+      213: -127547772200504110
+    second: Texturelabs_InkPaint_152S_14
+  - first:
+      213: 7050931197172609773
+    second: Texturelabs_InkPaint_152S_15
+  - first:
+      213: 416844776506733923
+    second: Texturelabs_InkPaint_152S_16
+  - first:
+      213: 5625315280480978407
+    second: Texturelabs_InkPaint_152S_17
+  - first:
+      213: 7693328482567966910
+    second: Texturelabs_InkPaint_152S_18
+  - first:
+      213: -5661555808199998522
+    second: Texturelabs_InkPaint_152S_19
+  - first:
+      213: 2573798273564892106
+    second: Texturelabs_InkPaint_152S_20
+  - first:
+      213: 7998386701225966348
+    second: Texturelabs_InkPaint_152S_21
+  - first:
+      213: -6886513589189971948
+    second: Texturelabs_InkPaint_152S_22
+  - first:
+      213: 6876665225043257101
+    second: Texturelabs_InkPaint_152S_23
+  - first:
+      213: 1235539834419851618
+    second: Texturelabs_InkPaint_152S_24
+  - first:
+      213: 3113088454775481305
+    second: Texturelabs_InkPaint_152S_25
+  - first:
+      213: -9164361474521445166
+    second: Texturelabs_InkPaint_152S_26
+  - first:
+      213: 5653431967269041590
+    second: Texturelabs_InkPaint_152S_27
+  - first:
+      213: -2372540343195996946
+    second: Texturelabs_InkPaint_152S_28
+  - first:
+      213: -7628723577561171155
+    second: Texturelabs_InkPaint_152S_29
+  - first:
+      213: 6408497410195841240
+    second: Texturelabs_InkPaint_152S_30
+  - first:
+      213: -2025301593924031639
+    second: Texturelabs_InkPaint_152S_31
+  - first:
+      213: 3951248743878132298
+    second: Texturelabs_InkPaint_152S_32
+  - first:
+      213: 6820857944992337840
+    second: Texturelabs_InkPaint_152S_33
+  - first:
+      213: -1065018225565841776
+    second: Texturelabs_InkPaint_152S_34
+  - first:
+      213: -7880458503351969069
+    second: Texturelabs_InkPaint_152S_35
+  - first:
+      213: -3030230995918893025
+    second: Texturelabs_InkPaint_152S_36
+  - first:
+      213: 3346811722579662640
+    second: Texturelabs_InkPaint_152S_37
+  - first:
+      213: 3833013475593810950
+    second: Texturelabs_InkPaint_152S_38
+  - first:
+      213: -7620492946840884003
+    second: Texturelabs_InkPaint_152S_39
+  - first:
+      213: 8190800389214294944
+    second: Texturelabs_InkPaint_152S_40
+  - first:
+      213: -2510042922893709222
+    second: Texturelabs_InkPaint_152S_41
+  - first:
+      213: 7773149802862755528
+    second: Texturelabs_InkPaint_152S_42
+  - first:
+      213: 4010369198795651733
+    second: Texturelabs_InkPaint_152S_43
+  - first:
+      213: -5603380513992014367
+    second: Texturelabs_InkPaint_152S_44
+  - first:
+      213: 2255987494264017402
+    second: Texturelabs_InkPaint_152S_45
+  - first:
+      213: 211082053440221590
+    second: Texturelabs_InkPaint_152S_46
+  - first:
+      213: -3950355055450647486
+    second: Texturelabs_InkPaint_152S_47
+  - first:
+      213: 8492802936665345585
+    second: Texturelabs_InkPaint_152S_48
+  - first:
+      213: -1381546242210354983
+    second: Texturelabs_InkPaint_152S_49
+  - first:
+      213: -1953263689410268269
+    second: Texturelabs_InkPaint_152S_50
+  - first:
+      213: 5614813302906257663
+    second: Texturelabs_InkPaint_152S_51
+  - first:
+      213: 8769241784346297697
+    second: Texturelabs_InkPaint_152S_52
+  - first:
+      213: 3919145691155732143
+    second: Texturelabs_InkPaint_152S_53
+  - first:
+      213: 2541071981905992298
+    second: Texturelabs_InkPaint_152S_54
+  - first:
+      213: 7493002206471735940
+    second: Texturelabs_InkPaint_152S_55
+  - first:
+      213: -8965891291102940182
+    second: Texturelabs_InkPaint_152S_56
+  - first:
+      213: -307602581519112806
+    second: Texturelabs_InkPaint_152S_57
+  - first:
+      213: -4056580922216900057
+    second: Texturelabs_InkPaint_152S_58
+  - first:
+      213: 8110375336035789114
+    second: Texturelabs_InkPaint_152S_59
+  - first:
+      213: -309003701803281164
+    second: Texturelabs_InkPaint_152S_60
+  - first:
+      213: 5913988209266607961
+    second: Texturelabs_InkPaint_152S_61
+  - first:
+      213: 1230727230395708709
+    second: Texturelabs_InkPaint_152S_62
+  - first:
+      213: 6846491745538474958
+    second: Texturelabs_InkPaint_152S_63
+  - first:
+      213: -7266948726337674706
+    second: Texturelabs_InkPaint_152S_64
+  - first:
+      213: -6005802559209336426
+    second: Texturelabs_InkPaint_152S_65
+  - first:
+      213: 7655970486878080511
+    second: Texturelabs_InkPaint_152S_66
+  - first:
+      213: 9066168848436195100
+    second: Texturelabs_InkPaint_152S_67
+  - first:
+      213: 6677472475014191881
+    second: Texturelabs_InkPaint_152S_68
+  - first:
+      213: 7225850215715038547
+    second: Texturelabs_InkPaint_152S_69
+  - first:
+      213: 6922466922881841638
+    second: Texturelabs_InkPaint_152S_70
+  - first:
+      213: 2825290676388256955
+    second: Texturelabs_InkPaint_152S_71
+  - first:
+      213: 493522019349326784
+    second: Texturelabs_InkPaint_152S_72
+  - first:
+      213: 6299693671953171334
+    second: Texturelabs_InkPaint_152S_73
+  - first:
+      213: -4482099348624867380
+    second: Texturelabs_InkPaint_152S_74
+  - first:
+      213: 451901117325868848
+    second: Texturelabs_InkPaint_152S_75
+  - first:
+      213: -6772314184325764315
+    second: Texturelabs_InkPaint_152S_76
+  - first:
+      213: -766915900114059403
+    second: Texturelabs_InkPaint_152S_77
+  - first:
+      213: -7882131473023783132
+    second: Texturelabs_InkPaint_152S_78
+  - first:
+      213: -4972624205815350489
+    second: Texturelabs_InkPaint_152S_79
+  - first:
+      213: 3184880774129711059
+    second: Texturelabs_InkPaint_152S_80
+  - first:
+      213: -2957452653919250425
+    second: Texturelabs_InkPaint_152S_81
+  - first:
+      213: -8800242762603650713
+    second: Texturelabs_InkPaint_152S_82
+  - first:
+      213: -2988676756367862596
+    second: Texturelabs_InkPaint_152S_83
+  - first:
+      213: 5954626051262006179
+    second: Texturelabs_InkPaint_152S_84
+  - first:
+      213: 7904326405869873108
+    second: Texturelabs_InkPaint_152S_85
+  - first:
+      213: -3026354541861564822
+    second: Texturelabs_InkPaint_152S_86
+  - first:
+      213: -1795330441506484820
+    second: Texturelabs_InkPaint_152S_87
+  - first:
+      213: -5323162963092167192
+    second: Texturelabs_InkPaint_152S_88
+  - first:
+      213: 834646879103419810
+    second: Texturelabs_InkPaint_152S_89
+  - first:
+      213: 6959699891733892567
+    second: Texturelabs_InkPaint_152S_90
+  - first:
+      213: 2312139411720663278
+    second: Texturelabs_InkPaint_152S_91
+  - first:
+      213: -3405268011474711379
+    second: Texturelabs_InkPaint_152S_92
+  - first:
+      213: 7905258854604804780
+    second: Texturelabs_InkPaint_152S_93
+  - first:
+      213: 950199286667062965
+    second: Texturelabs_InkPaint_152S_94
+  - first:
+      213: -8750231874529367347
+    second: Texturelabs_InkPaint_152S_95
+  - first:
+      213: 6053279881306265148
+    second: Texturelabs_InkPaint_152S_96
+  - first:
+      213: -6430222119839254942
+    second: Texturelabs_InkPaint_152S_97
+  - first:
+      213: -1851256272068216511
+    second: Texturelabs_InkPaint_152S_98
+  - first:
+      213: -1606251510952519241
+    second: Texturelabs_InkPaint_152S_99
+  - first:
+      213: -2180765027736213040
+    second: Texturelabs_InkPaint_152S_100
+  - first:
+      213: -4561019957149929284
+    second: Texturelabs_InkPaint_152S_101
+  - first:
+      213: 6861348192839728752
+    second: Texturelabs_InkPaint_152S_102
+  - first:
+      213: -1221238037653686692
+    second: Texturelabs_InkPaint_152S_103
+  - first:
+      213: -2014999872597552179
+    second: Texturelabs_InkPaint_152S_104
+  - first:
+      213: 8447478567067601329
+    second: Texturelabs_InkPaint_152S_105
+  - first:
+      213: 5093164365611384459
+    second: Texturelabs_InkPaint_152S_106
+  - first:
+      213: -3739619033865769023
+    second: Texturelabs_InkPaint_152S_107
+  - first:
+      213: -4504672330845597653
+    second: Texturelabs_InkPaint_152S_108
+  - first:
+      213: 4457041774119133636
+    second: Texturelabs_InkPaint_152S_109
+  - first:
+      213: 7930897840903135032
+    second: Texturelabs_InkPaint_152S_110
+  - first:
+      213: -6165092477894185843
+    second: Texturelabs_InkPaint_152S_111
+  - first:
+      213: -4376911997269251814
+    second: Texturelabs_InkPaint_152S_112
+  - first:
+      213: -207907574064718636
+    second: Texturelabs_InkPaint_152S_113
+  - first:
+      213: -7121898633087008720
+    second: Texturelabs_InkPaint_152S_114
+  - first:
+      213: -1434812631008139719
+    second: Texturelabs_InkPaint_152S_115
+  - first:
+      213: 3116483110138679385
+    second: Texturelabs_InkPaint_152S_116
+  - first:
+      213: 6237467164348747518
+    second: Texturelabs_InkPaint_152S_117
+  - first:
+      213: -273231915838702394
+    second: Texturelabs_InkPaint_152S_118
+  - first:
+      213: 1627663261151363549
+    second: Texturelabs_InkPaint_152S_119
+  - first:
+      213: 9188925212631413647
+    second: Texturelabs_InkPaint_152S_120
+  - first:
+      213: -8147004045404582572
+    second: Texturelabs_InkPaint_152S_121
+  - first:
+      213: 8602243077959516141
+    second: Texturelabs_InkPaint_152S_122
+  - first:
+      213: 3712002474771633571
+    second: Texturelabs_InkPaint_152S_123
+  - first:
+      213: 400117663422975885
+    second: Texturelabs_InkPaint_152S_124
+  - first:
+      213: 1960746100967256717
+    second: Texturelabs_InkPaint_152S_125
+  - first:
+      213: 8754211846965877625
+    second: Texturelabs_InkPaint_152S_126
+  - first:
+      213: -6255997228528436512
+    second: Texturelabs_InkPaint_152S_127
+  - first:
+      213: 7768000370208718579
+    second: Texturelabs_InkPaint_152S_128
+  - first:
+      213: 3557530287327566408
+    second: Texturelabs_InkPaint_152S_129
+  - first:
+      213: 434778708114595213
+    second: Texturelabs_InkPaint_152S_130
+  - first:
+      213: -4202074755541083876
+    second: Texturelabs_InkPaint_152S_131
+  - first:
+      213: 2088951907845761723
+    second: Texturelabs_InkPaint_152S_132
+  - first:
+      213: -4398775374888738745
+    second: Texturelabs_InkPaint_152S_133
+  - first:
+      213: 2879588728102363947
+    second: Texturelabs_InkPaint_152S_134
+  - first:
+      213: 5538384875428717093
+    second: Texturelabs_InkPaint_152S_135
+  - first:
+      213: 5858007379925040861
+    second: Texturelabs_InkPaint_152S_136
+  - first:
+      213: 358094911571585269
+    second: Texturelabs_InkPaint_152S_137
+  - first:
+      213: 3531820869536035051
+    second: Texturelabs_InkPaint_152S_138
+  - first:
+      213: 5725760576183972047
+    second: Texturelabs_InkPaint_152S_139
+  - first:
+      213: -1124571591023821770
+    second: Texturelabs_InkPaint_152S_140
+  - first:
+      213: 5415313560709275489
+    second: Texturelabs_InkPaint_152S_141
+  - first:
+      213: -978020978926824602
+    second: Texturelabs_InkPaint_152S_142
+  - first:
+      213: -1656819303449175081
+    second: Texturelabs_InkPaint_152S_143
+  - first:
+      213: -2027252833339544930
+    second: Texturelabs_InkPaint_152S_144
+  - first:
+      213: -8582553920216188719
+    second: Texturelabs_InkPaint_152S_145
+  - first:
+      213: -3349922826178305885
+    second: Texturelabs_InkPaint_152S_146
+  - first:
+      213: 3198040847383142902
+    second: Texturelabs_InkPaint_152S_147
+  - first:
+      213: 1473495602503011287
+    second: Texturelabs_InkPaint_152S_148
+  - first:
+      213: -2194497685032423096
+    second: Texturelabs_InkPaint_152S_149
+  - first:
+      213: 6084483070044284419
+    second: Texturelabs_InkPaint_152S_150
+  - first:
+      213: -7569961962717455814
+    second: Texturelabs_InkPaint_152S_151
+  - first:
+      213: 2448133708678237079
+    second: Texturelabs_InkPaint_152S_152
+  - first:
+      213: -5819177409005553844
+    second: Texturelabs_InkPaint_152S_153
+  - first:
+      213: 275457423805997604
+    second: Texturelabs_InkPaint_152S_154
+  - first:
+      213: 3071210962732809779
+    second: Texturelabs_InkPaint_152S_155
+  - first:
+      213: -5774643841441023443
+    second: Texturelabs_InkPaint_152S_156
+  - first:
+      213: -6301241389985236184
+    second: Texturelabs_InkPaint_152S_157
+  - first:
+      213: -4338576558114459003
+    second: Texturelabs_InkPaint_152S_158
+  - first:
+      213: -7706710986106256411
+    second: Texturelabs_InkPaint_152S_159
+  - first:
+      213: -8021977534353971973
+    second: Texturelabs_InkPaint_152S_160
+  - first:
+      213: -433994695618664229
+    second: Texturelabs_InkPaint_152S_161
+  - first:
+      213: 286510935385910357
+    second: Texturelabs_InkPaint_152S_162
+  - first:
+      213: -2957501745719349498
+    second: Texturelabs_InkPaint_152S_163
+  - first:
+      213: -4210755081435336851
+    second: Texturelabs_InkPaint_152S_164
+  - first:
+      213: 3807334366744642431
+    second: Texturelabs_InkPaint_152S_165
+  - first:
+      213: 3551349821195209158
+    second: Texturelabs_InkPaint_152S_166
+  - first:
+      213: -4474828213034554997
+    second: Texturelabs_InkPaint_152S_167
+  - first:
+      213: -7259965741016680783
+    second: Texturelabs_InkPaint_152S_168
+  - first:
+      213: 2238581609359567383
+    second: Texturelabs_InkPaint_152S_169
+  - first:
+      213: 1879284590295199546
+    second: Texturelabs_InkPaint_152S_170
+  - first:
+      213: 8680392016877612875
+    second: Texturelabs_InkPaint_152S_171
+  - first:
+      213: 6381537595506805222
+    second: Texturelabs_InkPaint_152S_172
+  - first:
+      213: -3994314036571339798
+    second: Texturelabs_InkPaint_152S_173
+  - first:
+      213: 603113249278011695
+    second: Texturelabs_InkPaint_152S_174
+  - first:
+      213: -3680562428002502010
+    second: Texturelabs_InkPaint_152S_175
+  - first:
+      213: 575697721805545709
+    second: Texturelabs_InkPaint_152S_176
+  - first:
+      213: -5022723406998847449
+    second: Texturelabs_InkPaint_152S_177
+  - first:
+      213: -4652383298499306108
+    second: Texturelabs_InkPaint_152S_178
+  - first:
+      213: -4002906660329199102
+    second: Texturelabs_InkPaint_152S_179
+  - first:
+      213: -6563261185748162154
+    second: Texturelabs_InkPaint_152S_180
+  - first:
+      213: 3629736552546338117
+    second: Texturelabs_InkPaint_152S_181
+  - first:
+      213: 355368194794992424
+    second: Texturelabs_InkPaint_152S_182
+  - first:
+      213: 2060770146648143186
+    second: Texturelabs_InkPaint_152S_183
+  - first:
+      213: 2246991457826557586
+    second: Texturelabs_InkPaint_152S_184
+  - first:
+      213: 2150415781713992167
+    second: Texturelabs_InkPaint_152S_185
+  - first:
+      213: 4572485745376790965
+    second: Texturelabs_InkPaint_152S_186
+  - first:
+      213: -7650881068279629064
+    second: Texturelabs_InkPaint_152S_187
+  - first:
+      213: 7733226604456358128
+    second: Texturelabs_InkPaint_152S_188
+  - first:
+      213: -6132884692721026538
+    second: Texturelabs_InkPaint_152S_189
+  - first:
+      213: 4585189354445683953
+    second: Texturelabs_InkPaint_152S_190
+  - first:
+      213: -8419645346942974032
+    second: Texturelabs_InkPaint_152S_191
+  - first:
+      213: -2720490576279191278
+    second: Texturelabs_InkPaint_152S_192
+  - first:
+      213: 7211020191494864641
+    second: Texturelabs_InkPaint_152S_193
+  - first:
+      213: -5763379334033824853
+    second: Texturelabs_InkPaint_152S_194
+  - first:
+      213: 1663728068338561231
+    second: Texturelabs_InkPaint_152S_195
+  - first:
+      213: -1747139518320943007
+    second: Texturelabs_InkPaint_152S_196
+  - first:
+      213: -2095049392978149283
+    second: Texturelabs_InkPaint_152S_197
+  - first:
+      213: -3623633071857580917
+    second: Texturelabs_InkPaint_152S_198
+  - first:
+      213: 4523250239309769439
+    second: Texturelabs_InkPaint_152S_199
+  - first:
+      213: -7092376339985125809
+    second: Texturelabs_InkPaint_152S_200
+  - first:
+      213: 5115646716974020684
+    second: Texturelabs_InkPaint_152S_201
+  - first:
+      213: 8295202519661599906
+    second: Texturelabs_InkPaint_152S_202
+  - first:
+      213: 3638620698716830502
+    second: Texturelabs_InkPaint_152S_203
+  - first:
+      213: 4881474884757333724
+    second: Texturelabs_InkPaint_152S_204
+  - first:
+      213: 1318633076112903117
+    second: Texturelabs_InkPaint_152S_205
+  - first:
+      213: 6480297567371401644
+    second: Texturelabs_InkPaint_152S_206
+  - first:
+      213: -2969470095392098197
+    second: Texturelabs_InkPaint_152S_207
+  - first:
+      213: -2957178500592277413
+    second: Texturelabs_InkPaint_152S_208
+  - first:
+      213: 8980615884670446805
+    second: Texturelabs_InkPaint_152S_209
+  - first:
+      213: -7233815202193129933
+    second: Texturelabs_InkPaint_152S_210
+  - first:
+      213: -3427293434809108707
+    second: Texturelabs_InkPaint_152S_211
+  - first:
+      213: 2180652362049558335
+    second: Texturelabs_InkPaint_152S_212
+  - first:
+      213: 2054234064664612115
+    second: Texturelabs_InkPaint_152S_213
+  - first:
+      213: 8494455981918159523
+    second: Texturelabs_InkPaint_152S_214
+  - first:
+      213: 8344695226887209511
+    second: Texturelabs_InkPaint_152S_215
+  - first:
+      213: 5903595681651071317
+    second: Texturelabs_InkPaint_152S_216
+  - first:
+      213: -2543581215196691611
+    second: Texturelabs_InkPaint_152S_217
+  - first:
+      213: 2159144615158736451
+    second: Texturelabs_InkPaint_152S_218
+  - first:
+      213: 7837509215639326447
+    second: Texturelabs_InkPaint_152S_219
+  - first:
+      213: 571144013440893198
+    second: Texturelabs_InkPaint_152S_220
+  - first:
+      213: -3854233476589503159
+    second: Texturelabs_InkPaint_152S_221
+  - first:
+      213: -2715975498311627338
+    second: Texturelabs_InkPaint_152S_222
+  - first:
+      213: -3817452003485379054
+    second: Texturelabs_InkPaint_152S_223
+  - first:
+      213: 9028672256930316162
+    second: Texturelabs_InkPaint_152S_224
+  - first:
+      213: 4942857823494264026
+    second: Texturelabs_InkPaint_152S_225
+  - first:
+      213: -4375633495011994356
+    second: Texturelabs_InkPaint_152S_226
+  - first:
+      213: 5070703995629060831
+    second: Texturelabs_InkPaint_152S_227
+  - first:
+      213: 3602377523553139898
+    second: Texturelabs_InkPaint_152S_228
+  - first:
+      213: -6763147565973063292
+    second: Texturelabs_InkPaint_152S_229
+  - first:
+      213: -7786509108712721517
+    second: Texturelabs_InkPaint_152S_230
+  - first:
+      213: -3796174536859855833
+    second: Texturelabs_InkPaint_152S_231
+  - first:
+      213: -3911001475000774932
+    second: Texturelabs_InkPaint_152S_232
+  - first:
+      213: -7113448544974808476
+    second: Texturelabs_InkPaint_152S_233
+  - first:
+      213: 5817155076799422566
+    second: Texturelabs_InkPaint_152S_234
+  - first:
+      213: 8325721699103916512
+    second: Texturelabs_InkPaint_152S_235
+  - first:
+      213: -8991214022541429402
+    second: Texturelabs_InkPaint_152S_236
+  - first:
+      213: 1385338996702877254
+    second: Texturelabs_InkPaint_152S_237
+  - first:
+      213: 9045501199408826685
+    second: Texturelabs_InkPaint_152S_238
+  - first:
+      213: -2681603479286252173
+    second: Texturelabs_InkPaint_152S_239
+  - first:
+      213: -3041213339554179606
+    second: Texturelabs_InkPaint_152S_240
+  - first:
+      213: 2179806519728894883
+    second: Texturelabs_InkPaint_152S_241
+  - first:
+      213: -5431012784604683497
+    second: Texturelabs_InkPaint_152S_242
+  - first:
+      213: 6451978917574067789
+    second: Texturelabs_InkPaint_152S_243
+  - first:
+      213: 8713643308218155059
+    second: Texturelabs_InkPaint_152S_244
+  - first:
+      213: 5298270496804268301
+    second: Texturelabs_InkPaint_152S_245
+  - first:
+      213: 2418829460503355542
+    second: Texturelabs_InkPaint_152S_246
+  - first:
+      213: 8382448981155375549
+    second: Texturelabs_InkPaint_152S_247
+  - first:
+      213: 4257239790301510971
+    second: Texturelabs_InkPaint_152S_248
+  - first:
+      213: -5986697489775762904
+    second: Texturelabs_InkPaint_152S_249
+  - first:
+      213: 6836492421187544159
+    second: Texturelabs_InkPaint_152S_250
+  - first:
+      213: -5291289859263507547
+    second: Texturelabs_InkPaint_152S_251
+  - first:
+      213: 711597005366831387
+    second: Texturelabs_InkPaint_152S_252
+  - first:
+      213: 1029330719246961385
+    second: Texturelabs_InkPaint_152S_253
+  - first:
+      213: 5354473326695521060
+    second: Texturelabs_InkPaint_152S_254
+  - first:
+      213: -727303552465142941
+    second: Texturelabs_InkPaint_152S_255
+  - first:
+      213: -5148609932252669301
+    second: Texturelabs_InkPaint_152S_256
+  - first:
+      213: -4663052056162330147
+    second: Texturelabs_InkPaint_152S_257
+  - first:
+      213: -955689364457859675
+    second: Texturelabs_InkPaint_152S_258
+  - first:
+      213: -2353444646397668291
+    second: Texturelabs_InkPaint_152S_259
+  - first:
+      213: -9122123957089671204
+    second: Texturelabs_InkPaint_152S_260
+  - first:
+      213: 7446179882212948744
+    second: Texturelabs_InkPaint_152S_261
+  - first:
+      213: -8458592505566180791
+    second: Texturelabs_InkPaint_152S_262
+  - first:
+      213: 6195652034205364643
+    second: Texturelabs_InkPaint_152S_263
+  - first:
+      213: 7644184362950404642
+    second: Texturelabs_InkPaint_152S_264
+  - first:
+      213: 8495323610944449531
+    second: Texturelabs_InkPaint_152S_265
+  - first:
+      213: -3106562040156823520
+    second: Texturelabs_InkPaint_152S_266
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 14
+        width: 894
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7547c0dfb1142f140800000000000000
+      internalID: 4751932145294668887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 624
+        width: 193
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1972227e17525a530800000000000000
+      internalID: 3865537026306746257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 623
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d924b3b0aff838370800000000000000
+      internalID: 8323654840403837597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_3
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 602
+        width: 127
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb96232d9c698c0800000000000000
+      internalID: -3992782114991260065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_4
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 644
+        width: 85
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6763d586ac875f30800000000000000
+      internalID: 4564271394200971114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_5
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 649
+        width: 71
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5bc8b028244f690800000000000000
+      internalID: -7569351947396008503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 624
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349757e5e819e08f0800000000000000
+      internalID: -572360061973333693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 644
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a1e39deac9ba820800000000000000
+      internalID: 2930608257317607979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_8
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 652
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2b2226767b03c20800000000000000
+      internalID: 3184246591206896370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 642
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4380d6cb2cad270800000000000000
+      internalID: 8276141379785602212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_10
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 636
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dd47e867bb32b20800000000000000
+      internalID: 3108534285686332760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 623
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24da91f0106cce160800000000000000
+      internalID: 7056232424033332546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 625
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a7a9cef4b050090800000000000000
+      internalID: -8069030719464506872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_13
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 629
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6ae29ca44e9bf0800000000000000
+      internalID: -315739415879455791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 625
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b81a1afbda3ef0800000000000000
+      internalID: -127547772200504110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_15
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 597
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2713ff090f9d160800000000000000
+      internalID: 7050931197172609773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_16
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 628
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365392e9d1ee8c500800000000000000
+      internalID: 416844776506733923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_17
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 626
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e545a28172211e40800000000000000
+      internalID: 5625315280480978407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_18
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 606
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0dbdf6e7134ca60800000000000000
+      internalID: 7693328482567966910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 613
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c380381dfc1e61b0800000000000000
+      internalID: -5661555808199998522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_20
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 616
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb595ba4e7f7b320800000000000000
+      internalID: 2573798273564892106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 621
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b38c6d35afffe60800000000000000
+      internalID: 7998386701225966348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_22
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 616
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4107e6f70603e60a0800000000000000
+      internalID: -6886513589189971948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_23
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 615
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d072cf98692de6f50800000000000000
+      internalID: 6876665225043257101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_24
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261b078eee4852110800000000000000
+      internalID: 1235539834419851618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_25
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 613
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3234da479e33b20800000000000000
+      internalID: 3113088454775481305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_26
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 621
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dccfd53bc5a1d080800000000000000
+      internalID: -9164361474521445166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_27
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 617
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5b8eacb66057e40800000000000000
+      internalID: 5653431967269041590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_28
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 617
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eece48cc02b031fd0800000000000000
+      internalID: -2372540343195996946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_29
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 613
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bb1dd2354512690800000000000000
+      internalID: -7628723577561171155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 615
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0ebbed07e8fe850800000000000000
+      internalID: 6408497410195841240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 609
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b202b4eeea4e3e0800000000000000
+      internalID: -2025301593924031639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_32
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 607
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4280164cc7a5d630800000000000000
+      internalID: 3951248743878132298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_33
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 607
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf4baa992e88ae50800000000000000
+      internalID: 6820857944992337840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 609
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096c4d9019b4831f0800000000000000
+      internalID: -1065018225565841776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_35
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 607
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dadf706ebcf2a290800000000000000
+      internalID: -7880458503351969069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 609
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1050ecc6f472f5d0800000000000000
+      internalID: -3030230995918893025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_37
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 604
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037597e8783427e20800000000000000
+      internalID: 3346811722579662640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_38
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604fd08a279913530800000000000000
+      internalID: 3833013475593810950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_39
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 611
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddced2a3a029e3690800000000000000
+      internalID: -7620492946840884003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_40
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 606
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3df39ae819ba170800000000000000
+      internalID: 8190800389214294944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_41
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 610
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ffe9a2498a2dd0800000000000000
+      internalID: -2510042922893709222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_42
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 609
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce3881df86cfdb60800000000000000
+      internalID: 7773149802862755528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_43
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 612
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59af168d981b7a730800000000000000
+      internalID: 4010369198795651733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_44
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5092a4c1bcc32b0800000000000000
+      internalID: -5603380513992014367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_45
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 607
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1945d5ca0ee4f10800000000000000
+      internalID: 2255987494264017402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_46
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 610
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691b3cd520aede200800000000000000
+      internalID: 211082053440221590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_47
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 609
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2441237c1058d29c0800000000000000
+      internalID: -3950355055450647486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_48
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 603
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e055b264f7cd570800000000000000
+      internalID: 8492802936665345585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_49
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 610
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8a6403303c3dce0800000000000000
+      internalID: -1381546242210354983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_50
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 609
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3933808f50d94e4e0800000000000000
+      internalID: -1953263689410268269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_51
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff08ddf43f2dbed40800000000000000
+      internalID: 5614813302906257663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_52
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 605
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165497101fa92b970800000000000000
+      internalID: 8769241784346297697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_53
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa61758dd3a936630800000000000000
+      internalID: 3919145691155732143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_54
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a543e1183b34320800000000000000
+      internalID: 2541071981905992298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_55
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 596
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a47f1aecd7cf760800000000000000
+      internalID: 7493002206471735940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_56
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 603
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae37a03cf51c29380800000000000000
+      internalID: -8965891291102940182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_57
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 598
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a956f84f41d2bbbf0800000000000000
+      internalID: -307602581519112806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_58
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 601
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a92a8d42124b7c0800000000000000
+      internalID: -4056580922216900057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_59
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39a083c567dd8070800000000000000
+      internalID: 8110375336035789114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_60
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f41cb735c236bbf0800000000000000
+      internalID: -309003701803281164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_61
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 598
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9574f2351f4b21250800000000000000
+      internalID: 5913988209266607961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_62
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 599
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525f22735eb641110800000000000000
+      internalID: 1230727230395708709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_63
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 604
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec30772e7ff930f50800000000000000
+      internalID: 6846491745538474958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_64
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 595
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e226aa5a2ac962b90800000000000000
+      internalID: -7266948726337674706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_65
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 596
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691123b746a17aca0800000000000000
+      internalID: -6005802559209336426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_66
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 603
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd0e3148987f3a60800000000000000
+      internalID: 7655970486878080511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_67
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f60c4788081dd70800000000000000
+      internalID: 9066168848436195100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_68
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 604
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b5ba656d52bac50800000000000000
+      internalID: 6677472475014191881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_69
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 605
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355efdbac70674460800000000000000
+      internalID: 7225850215715038547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_70
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 604
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e973c35dfa811060800000000000000
+      internalID: 6922466922881841638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_71
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 604
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc5851b6e2753720800000000000000
+      internalID: 2825290676388256955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_72
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 598
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb662c69a759d600800000000000000
+      internalID: 493522019349326784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_73
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 604
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6838b8674020d6750800000000000000
+      internalID: 6299693671953171334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_74
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 594
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf743db3626cc1c0800000000000000
+      internalID: -4482099348624867380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_75
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 604
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7fc30ca9754600800000000000000
+      internalID: 451901117325868848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_76
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 598
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b6cef6128e302a0800000000000000
+      internalID: -6772314184325764315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_77
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 598
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f3a195d0e5b55f0800000000000000
+      internalID: -766915900114059403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_78
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 554
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fad75cf2b0d9290800000000000000
+      internalID: -7882131473023783132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_79
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 595
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bfdd281a0bdfab0800000000000000
+      internalID: -4972624205815350489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_80
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 593
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7f8f99038f23c20800000000000000
+      internalID: 3184880774129711059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_81
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 598
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7085b130b7405f6d0800000000000000
+      internalID: -2957452653919250425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 198
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761aec545d14fd580800000000000000
+      internalID: -8800242762603650713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 124
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb41a3423561686d0800000000000000
+      internalID: -2988676756367862596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_84
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 158
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a342cb38d413a250800000000000000
+      internalID: 5954626051262006179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_85
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 157
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d72d9abcfec1bd60800000000000000
+      internalID: 7904326405869873108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_86
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 159
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e83f7149a3006d0800000000000000
+      internalID: -3026354541861564822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_87
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad8f8bb974b517e0800000000000000
+      internalID: -1795330441506484820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_88
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 159
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e520670d735026b0800000000000000
+      internalID: -5323162963092167192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a509d51ae2459b00800000000000000
+      internalID: 834646879103419810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_90
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 159
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd8f1e6d22d59060800000000000000
+      internalID: 6959699891733892567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee07ac27b8e561020800000000000000
+      internalID: 2312139411720663278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_92
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 161
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac8c0319ce0eb0d0800000000000000
+      internalID: -3405268011474711379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_93
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 155
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca21b3e5b0f15bd60800000000000000
+      internalID: 7905258854604804780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_94
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 155
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beae938739cf2d00800000000000000
+      internalID: 950199286667062965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_95
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca6068887ee09680800000000000000
+      internalID: -8750231874529367347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_96
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 161
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36574bfaf1910450800000000000000
+      internalID: 6053279881306265148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_97
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 161
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2663f100d0343c6a0800000000000000
+      internalID: -6430222119839254942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_98
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 153
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149f82b9a340f46e0800000000000000
+      internalID: -1851256272068216511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_99
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 147
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b99db5d2c275b9e0800000000000000
+      internalID: -1606251510952519241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_100
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 128
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9203fe2cd5cb1e0800000000000000
+      internalID: -2180765027736213040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_101
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 160
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb07c98a38004b0c0800000000000000
+      internalID: -4561019957149929284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_102
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 152
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07efa7214d7683f50800000000000000
+      internalID: 6861348192839728752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_103
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56f473a97a4d0fe0800000000000000
+      internalID: -1221238037653686692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_104
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc39d53ba484904e0800000000000000
+      internalID: -2014999872597552179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_105
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 141
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b94ac500097b3570800000000000000
+      internalID: 8447478567067601329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_106
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 157
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eb1fa710e8ea640800000000000000
+      internalID: 5093164365611384459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_107
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf24235d443a1cc0800000000000000
+      internalID: -3739619033865769023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_108
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 158
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20da62c1603c71c0800000000000000
+      internalID: -4504672330845597653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_109
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 155
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1a27f01e79add30800000000000000
+      internalID: 4457041774119133636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_110
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 157
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f91fc0195301e60800000000000000
+      internalID: 7930897840903135032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_111
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 158
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c2faf2e01317aa0800000000000000
+      internalID: -6165092477894185843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_112
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19ee957ab51243c0800000000000000
+      internalID: -4376911997269251814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_113
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 159
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc52c5b92d5d1df0800000000000000
+      internalID: -207907574064718636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_114
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 153
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03042883deee92d90800000000000000
+      internalID: -7121898633087008720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_115
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 153
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93624899385861ce0800000000000000
+      internalID: -1434812631008139719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_116
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 150
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950125870e8ff3b20800000000000000
+      internalID: 3116483110138679385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_117
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 160
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe8b25a65fef8650800000000000000
+      internalID: 6237467164348747518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_118
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 155
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc722b2509453cf0800000000000000
+      internalID: -273231915838702394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_119
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 159
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd181eebc1f969610800000000000000
+      internalID: 1627663261151363549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_120
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 156
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83b68ebbce958f70800000000000000
+      internalID: 9188925212631413647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_121
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 153
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d4df14cf600fe80800000000000000
+      internalID: -8147004045404582572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_122
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 156
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deff655b08e416770800000000000000
+      internalID: 8602243077959516141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_123
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 157
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a55222759ea38330800000000000000
+      internalID: 3712002474771633571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_124
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 159
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f8fac15e08d8500800000000000000
+      internalID: 400117663422975885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_125
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 160
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b2eab038f53b10800000000000000
+      internalID: 1960746100967256717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_126
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 155
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bdae20b453d7970800000000000000
+      internalID: 8754211846965877625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_127
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eafbb59aab3e29a0800000000000000
+      internalID: -6255997228528436512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_128
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 144
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3feb4691e2b7dcb60800000000000000
+      internalID: 7768000370208718579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_129
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 147
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a5add92f2ee5130800000000000000
+      internalID: 3557530287327566408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_130
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 147
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dd2157ee4a80600800000000000000
+      internalID: 434778708114595213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_131
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 147
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19565cf54b3fa5c0800000000000000
+      internalID: -4202074755541083876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_132
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 146
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba650441b27dfc10800000000000000
+      internalID: 2088951907845761723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 149
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740650d2a1964f2c0800000000000000
+      internalID: -4398775374888738745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 147
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23a2c501ba56f720800000000000000
+      internalID: 2879588728102363947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_135
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 153
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522235953bb4cdc40800000000000000
+      internalID: 5538384875428717093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_136
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 151
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde7c0ccca2db4150800000000000000
+      internalID: 5858007379925040861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_137
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 151
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f86910cc6538f400800000000000000
+      internalID: 358094911571585269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 143
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0b1035e5c830130800000000000000
+      internalID: 3531820869536035051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_139
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b16c58ecf57f40800000000000000
+      internalID: 5725760576183972047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_140
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 150
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c7780a818b460f0800000000000000
+      internalID: -1124571591023821770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_141
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 147
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f9e6dedfe072b40800000000000000
+      internalID: 5415313560709275489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_142
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 150
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663df28f91f5d62f0800000000000000
+      internalID: -978020978926824602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_143
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 142
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbd6e82f9bc109e0800000000000000
+      internalID: -1656819303449175081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_144
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 151
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a64e6f940cdd3e0800000000000000
+      internalID: -2027252833339544930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_145
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 148
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8b0ef8ea4a4e880800000000000000
+      internalID: -8582553920216188719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_146
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 137
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a06ba030fea281d0800000000000000
+      internalID: -3349922826178305885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_147
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 150
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1267de439b16c20800000000000000
+      internalID: 3198040847383142902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_148
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 138
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbca4d8178e27410800000000000000
+      internalID: 1473495602503011287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_149
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 150
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841b93f7bf39b81e0800000000000000
+      internalID: -2194497685032423096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_150
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 137
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062edf7d1d607450800000000000000
+      internalID: 6084483070044284419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_151
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ad109c3b712f690800000000000000
+      internalID: -7569961962717455814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_152
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b0d6423a489f120800000000000000
+      internalID: 2448133708678237079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_153
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 151
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47fe335af02e3fa0800000000000000
+      internalID: -5819177409005553844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_154
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42263b8411f92d300800000000000000
+      internalID: 275457423805997604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_155
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 148
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e79ff39122f9a20800000000000000
+      internalID: 3071210962732809779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_156
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 154
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ab28685085cdfa0800000000000000
+      internalID: -5774643841441023443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_157
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bf0f9575e7d88a0800000000000000
+      internalID: -6301241389985236184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_158
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58230ce6b974ac3c0800000000000000
+      internalID: -4338576558114459003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_159
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 141
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e34986a0334c0590800000000000000
+      internalID: -7706710986106256411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_160
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4eaac4fe53ca090800000000000000
+      internalID: -8021977534353971973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_161
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 136
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8ee3daf142af9f0800000000000000
+      internalID: -433994695618664229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_162
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 144
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c21ff7d24e9f300800000000000000
+      internalID: 286510935385910357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_163
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60feccfe4d7d4f6d0800000000000000
+      internalID: -2957501745719349498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_164
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 140
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f20ee10946095c0800000000000000
+      internalID: -4210755081435336851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_165
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 145
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7383f63f6e56d430800000000000000
+      internalID: 3807334366744642431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_166
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 143
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9cc75b8dde84130800000000000000
+      internalID: 3551349821195209158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_167
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 144
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89ed2be27736e1c0800000000000000
+      internalID: -4474828213034554997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_168
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 140
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6f13d9f9b6f3b90800000000000000
+      internalID: -7259965741016680783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_169
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 146
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a699afc1a011f10800000000000000
+      internalID: 2238581609359567383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_170
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 135
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f2964c06f841a10800000000000000
+      internalID: 1879284590295199546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_171
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 129
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f60257c82f67870800000000000000
+      internalID: 8680392016877612875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_172
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 139
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9cbfcd1a6cf8850800000000000000
+      internalID: 6381537595506805222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_173
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 138
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae30fc8eb885198c0800000000000000
+      internalID: -3994314036571339798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_174
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 141
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f292c860e40be5800800000000000000
+      internalID: 603113249278011695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_175
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 140
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68af241e8f30cecc0800000000000000
+      internalID: -3680562428002502010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_176
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 140
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0a83e170a4df700800000000000000
+      internalID: 575697721805545709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_177
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 139
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7204bc04ca3bb4ab0800000000000000
+      internalID: -5022723406998847449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_178
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 144
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d1df51a0a6f6fb0800000000000000
+      internalID: -4652383298499306108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_179
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 142
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a680ac991d278c0800000000000000
+      internalID: -4002906660329199102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_180
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6992f57a9bc9ae4a0800000000000000
+      internalID: -6563261185748162154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_181
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54586c2d92a6f5230800000000000000
+      internalID: 3629736552546338117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_182
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8233a378d758ee400800000000000000
+      internalID: 355368194794992424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_183
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 134
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25531baa783599c10800000000000000
+      internalID: 2060770146648143186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_184
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 134
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ec61963daee2f10800000000000000
+      internalID: 2246991457826557586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_185
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9d47492cfc7dd10800000000000000
+      internalID: 2150415781713992167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_186
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 129
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b988b13f8bb47f30800000000000000
+      internalID: 4572485745376790965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_187
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 129
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa7e6a543c92d590800000000000000
+      internalID: -7650881068279629064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_188
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 130
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0b836df90f15b60800000000000000
+      internalID: 7733226604456358128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_189
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 132
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61abee98ddd93eaa0800000000000000
+      internalID: -6132884692721026538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_190
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 125
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc33abac6dd1af30800000000000000
+      internalID: 4585189354445683953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_191
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 118
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b781b88a29672b80800000000000000
+      internalID: -8419645346942974032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_192
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 135
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211c4121c30ee3ad0800000000000000
+      internalID: -2720490576279191278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_193
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 132
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f783698a0b21460800000000000000
+      internalID: 7211020191494864641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_194
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 129
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba32619080d5400b0800000000000000
+      internalID: -5763379334033824853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_195
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 135
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0ba240ddfb61710800000000000000
+      internalID: 1663728068338561231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_196
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 136
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160ee656dd9e0c7e0800000000000000
+      internalID: -1747139518320943007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_197
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 134
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50c3a85da3ece2e0800000000000000
+      internalID: -2095049392978149283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_198
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 139
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8442938be446bdc0800000000000000
+      internalID: -3623633071857580917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_199
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6240a020d5ce30800000000000000
+      internalID: 4523250239309769439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_200
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 128
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e2dc9bb41d29d90800000000000000
+      internalID: -7092376339985125809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_201
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 122
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4831a1d59d6ef640800000000000000
+      internalID: 5115646716974020684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_202
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acda54edba7e1370800000000000000
+      internalID: 8295202519661599906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_203
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b766b4f3afe7230800000000000000
+      internalID: 3638620698716830502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_204
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 129
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6a3f56b8b7eb340800000000000000
+      internalID: 4881474884757333724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_205
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb4acadbc9bc4210800000000000000
+      internalID: 1318633076112903117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_206
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9100ead44aee950800000000000000
+      internalID: 6480297567371401644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_207
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 124
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6832016ea25ac6d0800000000000000
+      internalID: -2969470095392098197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_208
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 118
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5866ce42ddf5f6d0800000000000000
+      internalID: -2957178500592277413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_209
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc2306d09e81ac70800000000000000
+      internalID: 8980615884670446805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_210
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 127
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e357666635c9b90800000000000000
+      internalID: -7233815202193129933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_211
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 133
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17bc2597cecf60d0800000000000000
+      internalID: -3427293434809108707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_212
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 123
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37949a05cb334e10800000000000000
+      internalID: 2180652362049558335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_213
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d47dd7ffa128c10800000000000000
+      internalID: 2054234064664612115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_214
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 125
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a28c62c5be52e570800000000000000
+      internalID: 8494455981918159523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_215
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 113
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7228285c8105ec370800000000000000
+      internalID: 8344695226887209511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_216
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 123
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559975e6ef8cde150800000000000000
+      internalID: 5903595681651071317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_217
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 117
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56348da7c5263bcd0800000000000000
+      internalID: -2543581215196691611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_218
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 120
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346eb3d7692d6fd10800000000000000
+      internalID: 2159144615158736451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_219
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 124
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee48025b1d64cc60800000000000000
+      internalID: 7837509215639326447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_220
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 120
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e014cb4447c1de700800000000000000
+      internalID: 571144013440893198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_221
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94db67ad213038ac0800000000000000
+      internalID: -3854233476589503159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_222
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 118
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd88749caaee4ad0800000000000000
+      internalID: -2715975498311627338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_223
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2169629e0afa50bc0800000000000000
+      internalID: -3817452003485379054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_224
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f71cbe4994c4d70800000000000000
+      internalID: 9028672256930316162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_225
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 118
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4d2a8800f889440800000000000000
+      internalID: 4942857823494264026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_226
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 116
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c055286f480a643c0800000000000000
+      internalID: -4375633495011994356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_227
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 116
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2cf941b62ce5640800000000000000
+      internalID: 5070703995629060831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_228
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 120
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc7c3e75473ef130800000000000000
+      internalID: 3602377523553139898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_229
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489b0a61f197422a0800000000000000
+      internalID: -6763147565973063292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_230
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 118
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393b5d66833c0f390800000000000000
+      internalID: -7786509108712721517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_231
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 124
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724d5192f57415bc0800000000000000
+      internalID: -3796174536859855833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_232
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 119
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceecc8e31e459b9c0800000000000000
+      internalID: -3911001475000774932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_233
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 121
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ad1ccac34f74d90800000000000000
+      internalID: -7113448544974808476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_234
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6606df3c8bfaab050800000000000000
+      internalID: 5817155076799422566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_235
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1c9d516c7ea8370800000000000000
+      internalID: 8325721699103916512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_236
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 109
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66538e6eb7ac83380800000000000000
+      internalID: -8991214022541429402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_237
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64698f74a76b93310800000000000000
+      internalID: 1385338996702877254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_238
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 114
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39022e6a63188d70800000000000000
+      internalID: 9045501199408826685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_239
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37df0b4e7d709cad0800000000000000
+      internalID: -2681603479286252173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_240
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 107
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae591b9a4907bc5d0800000000000000
+      internalID: -3041213339554179606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_241
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 110
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a375870b7a304e10800000000000000
+      internalID: 2179806519728894883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_242
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 109
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713680ba5aa21a4b0800000000000000
+      internalID: -5431012784604683497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_243
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 111
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46cf4834a80a8950800000000000000
+      internalID: 6451978917574067789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_244
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 109
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3308dc50c641de870800000000000000
+      internalID: 8713643308218155059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_245
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0963f502fc378940800000000000000
+      internalID: 5298270496804268301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_246
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 93
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906d8d2498619120800000000000000
+      internalID: 2418829460503355542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_247
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9e99dafe0745470800000000000000
+      internalID: 8382448981155375549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_248
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d74909801c41b30800000000000000
+      internalID: 4257239790301510971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_249
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82261381a5afaeca0800000000000000
+      internalID: -5986697489775762904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_250
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54a882c2a910ee50800000000000000
+      internalID: 6836492421187544159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_251
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d8fe48ef8196b0800000000000000
+      internalID: -5291289859263507547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_252
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 99
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b192f18c4b910e900800000000000000
+      internalID: 711597005366831387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_253
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 76
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eacc15e5dae84e00800000000000000
+      internalID: 1029330719246961385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_254
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 97
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b9df41f19ee4a40800000000000000
+      internalID: 5354473326695521060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_255
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b7f6fb54918e5f0800000000000000
+      internalID: -727303552465142941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_256
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 84
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a180d8b867c88b0800000000000000
+      internalID: -5148609932252669301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_257
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 76
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd91a4f5cd2894fb0800000000000000
+      internalID: -4663052056162330147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_258
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 73
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5ded32695bcb2f0800000000000000
+      internalID: -955689364457859675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_259
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 69
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d341cec2092e65fd0800000000000000
+      internalID: -2353444646397668291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_260
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 71
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7e6949794b76180800000000000000
+      internalID: -9122123957089671204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_261
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 65
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b76fcb625265760800000000000000
+      internalID: 7446179882212948744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_262
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 62
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a42f58eea0d9a80800000000000000
+      internalID: -8458592505566180791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_263
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1bcbaf2b06bf550800000000000000
+      internalID: 6195652034205364643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_264
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 41
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a214f6d29951a60800000000000000
+      internalID: 7644184362950404642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_265
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb255260d375e570800000000000000
+      internalID: 8495323610944449531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Texturelabs_InkPaint_152S_266
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 48
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0206db3a84643e4d0800000000000000
+      internalID: -3106562040156823520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Texturelabs_InkPaint_152S_0: 4751932145294668887
+      Texturelabs_InkPaint_152S_1: 3865537026306746257
+      Texturelabs_InkPaint_152S_10: 3108534285686332760
+      Texturelabs_InkPaint_152S_100: -2180765027736213040
+      Texturelabs_InkPaint_152S_101: -4561019957149929284
+      Texturelabs_InkPaint_152S_102: 6861348192839728752
+      Texturelabs_InkPaint_152S_103: -1221238037653686692
+      Texturelabs_InkPaint_152S_104: -2014999872597552179
+      Texturelabs_InkPaint_152S_105: 8447478567067601329
+      Texturelabs_InkPaint_152S_106: 5093164365611384459
+      Texturelabs_InkPaint_152S_107: -3739619033865769023
+      Texturelabs_InkPaint_152S_108: -4504672330845597653
+      Texturelabs_InkPaint_152S_109: 4457041774119133636
+      Texturelabs_InkPaint_152S_11: 7056232424033332546
+      Texturelabs_InkPaint_152S_110: 7930897840903135032
+      Texturelabs_InkPaint_152S_111: -6165092477894185843
+      Texturelabs_InkPaint_152S_112: -4376911997269251814
+      Texturelabs_InkPaint_152S_113: -207907574064718636
+      Texturelabs_InkPaint_152S_114: -7121898633087008720
+      Texturelabs_InkPaint_152S_115: -1434812631008139719
+      Texturelabs_InkPaint_152S_116: 3116483110138679385
+      Texturelabs_InkPaint_152S_117: 6237467164348747518
+      Texturelabs_InkPaint_152S_118: -273231915838702394
+      Texturelabs_InkPaint_152S_119: 1627663261151363549
+      Texturelabs_InkPaint_152S_12: -8069030719464506872
+      Texturelabs_InkPaint_152S_120: 9188925212631413647
+      Texturelabs_InkPaint_152S_121: -8147004045404582572
+      Texturelabs_InkPaint_152S_122: 8602243077959516141
+      Texturelabs_InkPaint_152S_123: 3712002474771633571
+      Texturelabs_InkPaint_152S_124: 400117663422975885
+      Texturelabs_InkPaint_152S_125: 1960746100967256717
+      Texturelabs_InkPaint_152S_126: 8754211846965877625
+      Texturelabs_InkPaint_152S_127: -6255997228528436512
+      Texturelabs_InkPaint_152S_128: 7768000370208718579
+      Texturelabs_InkPaint_152S_129: 3557530287327566408
+      Texturelabs_InkPaint_152S_13: -315739415879455791
+      Texturelabs_InkPaint_152S_130: 434778708114595213
+      Texturelabs_InkPaint_152S_131: -4202074755541083876
+      Texturelabs_InkPaint_152S_132: 2088951907845761723
+      Texturelabs_InkPaint_152S_133: -4398775374888738745
+      Texturelabs_InkPaint_152S_134: 2879588728102363947
+      Texturelabs_InkPaint_152S_135: 5538384875428717093
+      Texturelabs_InkPaint_152S_136: 5858007379925040861
+      Texturelabs_InkPaint_152S_137: 358094911571585269
+      Texturelabs_InkPaint_152S_138: 3531820869536035051
+      Texturelabs_InkPaint_152S_139: 5725760576183972047
+      Texturelabs_InkPaint_152S_14: -127547772200504110
+      Texturelabs_InkPaint_152S_140: -1124571591023821770
+      Texturelabs_InkPaint_152S_141: 5415313560709275489
+      Texturelabs_InkPaint_152S_142: -978020978926824602
+      Texturelabs_InkPaint_152S_143: -1656819303449175081
+      Texturelabs_InkPaint_152S_144: -2027252833339544930
+      Texturelabs_InkPaint_152S_145: -8582553920216188719
+      Texturelabs_InkPaint_152S_146: -3349922826178305885
+      Texturelabs_InkPaint_152S_147: 3198040847383142902
+      Texturelabs_InkPaint_152S_148: 1473495602503011287
+      Texturelabs_InkPaint_152S_149: -2194497685032423096
+      Texturelabs_InkPaint_152S_15: 7050931197172609773
+      Texturelabs_InkPaint_152S_150: 6084483070044284419
+      Texturelabs_InkPaint_152S_151: -7569961962717455814
+      Texturelabs_InkPaint_152S_152: 2448133708678237079
+      Texturelabs_InkPaint_152S_153: -5819177409005553844
+      Texturelabs_InkPaint_152S_154: 275457423805997604
+      Texturelabs_InkPaint_152S_155: 3071210962732809779
+      Texturelabs_InkPaint_152S_156: -5774643841441023443
+      Texturelabs_InkPaint_152S_157: -6301241389985236184
+      Texturelabs_InkPaint_152S_158: -4338576558114459003
+      Texturelabs_InkPaint_152S_159: -7706710986106256411
+      Texturelabs_InkPaint_152S_16: 416844776506733923
+      Texturelabs_InkPaint_152S_160: -8021977534353971973
+      Texturelabs_InkPaint_152S_161: -433994695618664229
+      Texturelabs_InkPaint_152S_162: 286510935385910357
+      Texturelabs_InkPaint_152S_163: -2957501745719349498
+      Texturelabs_InkPaint_152S_164: -4210755081435336851
+      Texturelabs_InkPaint_152S_165: 3807334366744642431
+      Texturelabs_InkPaint_152S_166: 3551349821195209158
+      Texturelabs_InkPaint_152S_167: -4474828213034554997
+      Texturelabs_InkPaint_152S_168: -7259965741016680783
+      Texturelabs_InkPaint_152S_169: 2238581609359567383
+      Texturelabs_InkPaint_152S_17: 5625315280480978407
+      Texturelabs_InkPaint_152S_170: 1879284590295199546
+      Texturelabs_InkPaint_152S_171: 8680392016877612875
+      Texturelabs_InkPaint_152S_172: 6381537595506805222
+      Texturelabs_InkPaint_152S_173: -3994314036571339798
+      Texturelabs_InkPaint_152S_174: 603113249278011695
+      Texturelabs_InkPaint_152S_175: -3680562428002502010
+      Texturelabs_InkPaint_152S_176: 575697721805545709
+      Texturelabs_InkPaint_152S_177: -5022723406998847449
+      Texturelabs_InkPaint_152S_178: -4652383298499306108
+      Texturelabs_InkPaint_152S_179: -4002906660329199102
+      Texturelabs_InkPaint_152S_18: 7693328482567966910
+      Texturelabs_InkPaint_152S_180: -6563261185748162154
+      Texturelabs_InkPaint_152S_181: 3629736552546338117
+      Texturelabs_InkPaint_152S_182: 355368194794992424
+      Texturelabs_InkPaint_152S_183: 2060770146648143186
+      Texturelabs_InkPaint_152S_184: 2246991457826557586
+      Texturelabs_InkPaint_152S_185: 2150415781713992167
+      Texturelabs_InkPaint_152S_186: 4572485745376790965
+      Texturelabs_InkPaint_152S_187: -7650881068279629064
+      Texturelabs_InkPaint_152S_188: 7733226604456358128
+      Texturelabs_InkPaint_152S_189: -6132884692721026538
+      Texturelabs_InkPaint_152S_19: -5661555808199998522
+      Texturelabs_InkPaint_152S_190: 4585189354445683953
+      Texturelabs_InkPaint_152S_191: -8419645346942974032
+      Texturelabs_InkPaint_152S_192: -2720490576279191278
+      Texturelabs_InkPaint_152S_193: 7211020191494864641
+      Texturelabs_InkPaint_152S_194: -5763379334033824853
+      Texturelabs_InkPaint_152S_195: 1663728068338561231
+      Texturelabs_InkPaint_152S_196: -1747139518320943007
+      Texturelabs_InkPaint_152S_197: -2095049392978149283
+      Texturelabs_InkPaint_152S_198: -3623633071857580917
+      Texturelabs_InkPaint_152S_199: 4523250239309769439
+      Texturelabs_InkPaint_152S_2: 8323654840403837597
+      Texturelabs_InkPaint_152S_20: 2573798273564892106
+      Texturelabs_InkPaint_152S_200: -7092376339985125809
+      Texturelabs_InkPaint_152S_201: 5115646716974020684
+      Texturelabs_InkPaint_152S_202: 8295202519661599906
+      Texturelabs_InkPaint_152S_203: 3638620698716830502
+      Texturelabs_InkPaint_152S_204: 4881474884757333724
+      Texturelabs_InkPaint_152S_205: 1318633076112903117
+      Texturelabs_InkPaint_152S_206: 6480297567371401644
+      Texturelabs_InkPaint_152S_207: -2969470095392098197
+      Texturelabs_InkPaint_152S_208: -2957178500592277413
+      Texturelabs_InkPaint_152S_209: 8980615884670446805
+      Texturelabs_InkPaint_152S_21: 7998386701225966348
+      Texturelabs_InkPaint_152S_210: -7233815202193129933
+      Texturelabs_InkPaint_152S_211: -3427293434809108707
+      Texturelabs_InkPaint_152S_212: 2180652362049558335
+      Texturelabs_InkPaint_152S_213: 2054234064664612115
+      Texturelabs_InkPaint_152S_214: 8494455981918159523
+      Texturelabs_InkPaint_152S_215: 8344695226887209511
+      Texturelabs_InkPaint_152S_216: 5903595681651071317
+      Texturelabs_InkPaint_152S_217: -2543581215196691611
+      Texturelabs_InkPaint_152S_218: 2159144615158736451
+      Texturelabs_InkPaint_152S_219: 7837509215639326447
+      Texturelabs_InkPaint_152S_22: -6886513589189971948
+      Texturelabs_InkPaint_152S_220: 571144013440893198
+      Texturelabs_InkPaint_152S_221: -3854233476589503159
+      Texturelabs_InkPaint_152S_222: -2715975498311627338
+      Texturelabs_InkPaint_152S_223: -3817452003485379054
+      Texturelabs_InkPaint_152S_224: 9028672256930316162
+      Texturelabs_InkPaint_152S_225: 4942857823494264026
+      Texturelabs_InkPaint_152S_226: -4375633495011994356
+      Texturelabs_InkPaint_152S_227: 5070703995629060831
+      Texturelabs_InkPaint_152S_228: 3602377523553139898
+      Texturelabs_InkPaint_152S_229: -6763147565973063292
+      Texturelabs_InkPaint_152S_23: 6876665225043257101
+      Texturelabs_InkPaint_152S_230: -7786509108712721517
+      Texturelabs_InkPaint_152S_231: -3796174536859855833
+      Texturelabs_InkPaint_152S_232: -3911001475000774932
+      Texturelabs_InkPaint_152S_233: -7113448544974808476
+      Texturelabs_InkPaint_152S_234: 5817155076799422566
+      Texturelabs_InkPaint_152S_235: 8325721699103916512
+      Texturelabs_InkPaint_152S_236: -8991214022541429402
+      Texturelabs_InkPaint_152S_237: 1385338996702877254
+      Texturelabs_InkPaint_152S_238: 9045501199408826685
+      Texturelabs_InkPaint_152S_239: -2681603479286252173
+      Texturelabs_InkPaint_152S_24: 1235539834419851618
+      Texturelabs_InkPaint_152S_240: -3041213339554179606
+      Texturelabs_InkPaint_152S_241: 2179806519728894883
+      Texturelabs_InkPaint_152S_242: -5431012784604683497
+      Texturelabs_InkPaint_152S_243: 6451978917574067789
+      Texturelabs_InkPaint_152S_244: 8713643308218155059
+      Texturelabs_InkPaint_152S_245: 5298270496804268301
+      Texturelabs_InkPaint_152S_246: 2418829460503355542
+      Texturelabs_InkPaint_152S_247: 8382448981155375549
+      Texturelabs_InkPaint_152S_248: 4257239790301510971
+      Texturelabs_InkPaint_152S_249: -5986697489775762904
+      Texturelabs_InkPaint_152S_25: 3113088454775481305
+      Texturelabs_InkPaint_152S_250: 6836492421187544159
+      Texturelabs_InkPaint_152S_251: -5291289859263507547
+      Texturelabs_InkPaint_152S_252: 711597005366831387
+      Texturelabs_InkPaint_152S_253: 1029330719246961385
+      Texturelabs_InkPaint_152S_254: 5354473326695521060
+      Texturelabs_InkPaint_152S_255: -727303552465142941
+      Texturelabs_InkPaint_152S_256: -5148609932252669301
+      Texturelabs_InkPaint_152S_257: -4663052056162330147
+      Texturelabs_InkPaint_152S_258: -955689364457859675
+      Texturelabs_InkPaint_152S_259: -2353444646397668291
+      Texturelabs_InkPaint_152S_26: -9164361474521445166
+      Texturelabs_InkPaint_152S_260: -9122123957089671204
+      Texturelabs_InkPaint_152S_261: 7446179882212948744
+      Texturelabs_InkPaint_152S_262: -8458592505566180791
+      Texturelabs_InkPaint_152S_263: 6195652034205364643
+      Texturelabs_InkPaint_152S_264: 7644184362950404642
+      Texturelabs_InkPaint_152S_265: 8495323610944449531
+      Texturelabs_InkPaint_152S_266: -3106562040156823520
+      Texturelabs_InkPaint_152S_27: 5653431967269041590
+      Texturelabs_InkPaint_152S_28: -2372540343195996946
+      Texturelabs_InkPaint_152S_29: -7628723577561171155
+      Texturelabs_InkPaint_152S_3: -3992782114991260065
+      Texturelabs_InkPaint_152S_30: 6408497410195841240
+      Texturelabs_InkPaint_152S_31: -2025301593924031639
+      Texturelabs_InkPaint_152S_32: 3951248743878132298
+      Texturelabs_InkPaint_152S_33: 6820857944992337840
+      Texturelabs_InkPaint_152S_34: -1065018225565841776
+      Texturelabs_InkPaint_152S_35: -7880458503351969069
+      Texturelabs_InkPaint_152S_36: -3030230995918893025
+      Texturelabs_InkPaint_152S_37: 3346811722579662640
+      Texturelabs_InkPaint_152S_38: 3833013475593810950
+      Texturelabs_InkPaint_152S_39: -7620492946840884003
+      Texturelabs_InkPaint_152S_4: 4564271394200971114
+      Texturelabs_InkPaint_152S_40: 8190800389214294944
+      Texturelabs_InkPaint_152S_41: -2510042922893709222
+      Texturelabs_InkPaint_152S_42: 7773149802862755528
+      Texturelabs_InkPaint_152S_43: 4010369198795651733
+      Texturelabs_InkPaint_152S_44: -5603380513992014367
+      Texturelabs_InkPaint_152S_45: 2255987494264017402
+      Texturelabs_InkPaint_152S_46: 211082053440221590
+      Texturelabs_InkPaint_152S_47: -3950355055450647486
+      Texturelabs_InkPaint_152S_48: 8492802936665345585
+      Texturelabs_InkPaint_152S_49: -1381546242210354983
+      Texturelabs_InkPaint_152S_5: -7569351947396008503
+      Texturelabs_InkPaint_152S_50: -1953263689410268269
+      Texturelabs_InkPaint_152S_51: 5614813302906257663
+      Texturelabs_InkPaint_152S_52: 8769241784346297697
+      Texturelabs_InkPaint_152S_53: 3919145691155732143
+      Texturelabs_InkPaint_152S_54: 2541071981905992298
+      Texturelabs_InkPaint_152S_55: 7493002206471735940
+      Texturelabs_InkPaint_152S_56: -8965891291102940182
+      Texturelabs_InkPaint_152S_57: -307602581519112806
+      Texturelabs_InkPaint_152S_58: -4056580922216900057
+      Texturelabs_InkPaint_152S_59: 8110375336035789114
+      Texturelabs_InkPaint_152S_6: -572360061973333693
+      Texturelabs_InkPaint_152S_60: -309003701803281164
+      Texturelabs_InkPaint_152S_61: 5913988209266607961
+      Texturelabs_InkPaint_152S_62: 1230727230395708709
+      Texturelabs_InkPaint_152S_63: 6846491745538474958
+      Texturelabs_InkPaint_152S_64: -7266948726337674706
+      Texturelabs_InkPaint_152S_65: -6005802559209336426
+      Texturelabs_InkPaint_152S_66: 7655970486878080511
+      Texturelabs_InkPaint_152S_67: 9066168848436195100
+      Texturelabs_InkPaint_152S_68: 6677472475014191881
+      Texturelabs_InkPaint_152S_69: 7225850215715038547
+      Texturelabs_InkPaint_152S_7: 2930608257317607979
+      Texturelabs_InkPaint_152S_70: 6922466922881841638
+      Texturelabs_InkPaint_152S_71: 2825290676388256955
+      Texturelabs_InkPaint_152S_72: 493522019349326784
+      Texturelabs_InkPaint_152S_73: 6299693671953171334
+      Texturelabs_InkPaint_152S_74: -4482099348624867380
+      Texturelabs_InkPaint_152S_75: 451901117325868848
+      Texturelabs_InkPaint_152S_76: -6772314184325764315
+      Texturelabs_InkPaint_152S_77: -766915900114059403
+      Texturelabs_InkPaint_152S_78: -7882131473023783132
+      Texturelabs_InkPaint_152S_79: -4972624205815350489
+      Texturelabs_InkPaint_152S_8: 3184246591206896370
+      Texturelabs_InkPaint_152S_80: 3184880774129711059
+      Texturelabs_InkPaint_152S_81: -2957452653919250425
+      Texturelabs_InkPaint_152S_82: -8800242762603650713
+      Texturelabs_InkPaint_152S_83: -2988676756367862596
+      Texturelabs_InkPaint_152S_84: 5954626051262006179
+      Texturelabs_InkPaint_152S_85: 7904326405869873108
+      Texturelabs_InkPaint_152S_86: -3026354541861564822
+      Texturelabs_InkPaint_152S_87: -1795330441506484820
+      Texturelabs_InkPaint_152S_88: -5323162963092167192
+      Texturelabs_InkPaint_152S_89: 834646879103419810
+      Texturelabs_InkPaint_152S_9: 8276141379785602212
+      Texturelabs_InkPaint_152S_90: 6959699891733892567
+      Texturelabs_InkPaint_152S_91: 2312139411720663278
+      Texturelabs_InkPaint_152S_92: -3405268011474711379
+      Texturelabs_InkPaint_152S_93: 7905258854604804780
+      Texturelabs_InkPaint_152S_94: 950199286667062965
+      Texturelabs_InkPaint_152S_95: -8750231874529367347
+      Texturelabs_InkPaint_152S_96: 6053279881306265148
+      Texturelabs_InkPaint_152S_97: -6430222119839254942
+      Texturelabs_InkPaint_152S_98: -1851256272068216511
+      Texturelabs_InkPaint_152S_99: -1606251510952519241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
