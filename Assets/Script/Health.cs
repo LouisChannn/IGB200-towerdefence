@@ -4,7 +4,7 @@ public class Health : MonoBehaviour
 {
     [Header("Attributes")]
     [SerializeField] private int hitPoint = 2;
-    [SerializeField] private int PaintFuelReward = 10;
+    [SerializeField] private int paintFuelReward = 10;
     private bool isDestroyed = false;
 
     public void TakeDamage(int damage)
@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
         if (hitPoint <= 0 && !isDestroyed)
         {
             EnemySpawner.onEnemyDestroyed.Invoke();
-            LevelManager.main.IncreasePaintFuel(PaintFuelReward);
+            LevelManager.main.IncreasePaintFuel(paintFuelReward);
             isDestroyed = true;
             Destroy(gameObject);
         }

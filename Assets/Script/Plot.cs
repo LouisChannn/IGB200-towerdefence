@@ -15,6 +15,8 @@ public class Plot : MonoBehaviour
     }
     private void OnMouseEnter()
     {
+        if (tower != null) return; // already built here, no need to hint it's clickable
+
         sr.color = hoverColor;
     }
 
