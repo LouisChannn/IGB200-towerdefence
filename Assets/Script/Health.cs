@@ -4,7 +4,12 @@ public class Health : MonoBehaviour
 {
     [Header("Attributes")]
     [SerializeField] private int hitPoint = 2;
-    [SerializeField] private int paintFuelReward = 10;
+
+    [Header("Colour Fuel Reward")]
+    [SerializeField] private int colourFuelReward = 10;
+
+    [Header("Colour Meter Reward")]
+    [SerializeField] private int colourMeterReward = 10;
 
     private bool isDestroyed = false;
 
@@ -19,10 +24,16 @@ public class Health : MonoBehaviour
             // Enemy destroyed
             EnemySpawner.onEnemyDestroyed.Invoke();
 
-            // Give Paint Fuel reward
-            LevelManager.main.IncreasePaintFuel(paintFuelReward);
+            // Give Colour Fuel
+            LevelManager.main.IncreaseColourFuel(
+                colourFuelReward
+            );
 
-            // Destroy enemy
+            // Fill Colour Meter
+            LevelManager.main.IncreaseColourMeter(
+                colourMeterReward
+            );
+
             Destroy(gameObject);
         }
     }

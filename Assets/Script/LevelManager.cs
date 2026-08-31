@@ -4,11 +4,19 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager main;
 
+    [Header("Path")]
     public Transform startPoint;
     public Transform[] path;
 
-    [Header("Paint Fuel")]
-    public int paintfuel = 100;
+    [Header("Colour Fuel")]
+    [SerializeField] private int startingColourFuel = 100;
+
+    public int colourFuel { get; private set; }
+
+    [Header("Colour Meter")]
+    [SerializeField] private int maxColourMeter = 100;
+
+    public int colourMeter { get; private set; }
 
     private void Awake()
     {
@@ -17,23 +25,58 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        paintfuel = 100;
+        colourFuel = startingColourFuel;
+        colourMeter = 0;
     }
 
-    public void IncreasePaintFuel(int amount)
+    // =========================
+    // COLOUR FUEL (turret currency)
+    // =========================
+
+    public void IncreaseColourFuel(int amount)
     {
-        paintfuel += amount;
+        colourFuel += amount;
     }
 
-    public bool SpendPaintFuel(int amount)
+    public bool SpendColourFuel(int amount)
     {
-        if (amount <= paintfuel)
+        if (amount <= colourFuel)
         {
-            paintfuel -= amount;
+            colourFuel -= amount;
             return true;
         }
 
-        Debug.Log("Not enough Paint Fuel!");
+        Debug.Log("Not enough Colour Fuel!");
         return false;
+    }
+
+    // =========================
+    // COLOUR METER (ability to win the level)
+    // =========================
+
+    public void IncreaseColourMeter(int amount)
+    {
+        colourMeter += amount;
+
+        colourMeter = Mathf.Clamp(
+            colourMeter,
+            0,
+            maxColourMeter
+        );
+    }
+
+    public int GetColourMeter()
+    {
+        return colourMeter;
+    }
+
+    public int GetMaxColourMeter()
+    {
+        return maxColourMeter;
+    }
+
+    public bool IsColourMeterFull()
+    {
+        return colourMeter >= maxColourMeter;
     }
 }

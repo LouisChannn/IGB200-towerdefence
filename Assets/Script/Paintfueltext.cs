@@ -1,15 +1,16 @@
 using UnityEngine;
 using TMPro;
 
-public class PaintFuelUI : MonoBehaviour
+public class ColourFuelUI : MonoBehaviour
 {
-    [SerializeField] private TMP_Text paintFuelText;
+    [SerializeField] private TMP_Text colourFuelText;
 
     private void Update()
     {
         if (LevelManager.main != null)
         {
-            paintFuelText.text = "Paint Fuel: " + LevelManager.main.paintfuel;
+            colourFuelText.text =
+                "Colour Fuel: " + LevelManager.main.colourFuel;
         }
     }
 }

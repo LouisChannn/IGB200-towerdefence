@@ -9,8 +9,11 @@ public class BuildManager : MonoBehaviour
     [SerializeField] private GameObject[] towerPrefabs;
     [SerializeField] private GameObject buildMenu;
 
-    [Header("Turret Costs")]
+    [Header("Turret Costs - Colour Fuel")]
     [SerializeField] private int[] towerCosts;
+
+    [Header("Colour Meter")]
+    [SerializeField] private int turretMeterReward = 10;
 
     [Header("Attributes")]
     [SerializeField] private float menuYOffset = 0.75f;
@@ -24,7 +27,9 @@ public class BuildManager : MonoBehaviour
     private void Awake()
     {
         main = this;
+
         buildMenuRect = buildMenu.GetComponent<RectTransform>();
+
         buildMenu.SetActive(false);
     }
 
@@ -37,7 +42,9 @@ public class BuildManager : MonoBehaviour
         if (EventSystem.current.IsPointerOverGameObject()) return;
 
         // Check if the player clicked the selected plot
-        Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 mouseWorld =
+            Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
         Collider2D hit = Physics2D.OverlapPoint(mouseWorld);
 
         if (hit != null && hit.gameObject == selectedPlot.gameObject)
@@ -51,35 +58,59 @@ public class BuildManager : MonoBehaviour
     {
         selectedPlot = plot;
 
-        Vector3 desiredPos = plot.transform.position + new Vector3(0f, menuYOffset, 0f);
-        buildMenu.transform.position = ClampToScreen(desiredPos);
+        Vector3 desiredPos =
+            plot.transform.position +
+            new Vector3(0f, menuYOffset, 0f);
+
+        buildMenu.transform.position =
+            ClampToScreen(desiredPos);
 
         buildMenu.SetActive(true);
 
         Time.timeScale = buildMenuTimeScale;
     }
 
-    // Keeps the popup fully within the camera's view, regardless of which plot it's opened on
+    // Keeps the popup fully within the camera's view
     private Vector3 ClampToScreen(Vector3 desiredPos)
     {
         Camera cam = Camera.main;
 
         float camHalfHeight = cam.orthographicSize;
         float camHalfWidth = camHalfHeight * cam.aspect;
+
         Vector3 camPos = cam.transform.position;
 
-        float menuHalfWidth = (buildMenuRect.rect.width * buildMenu.transform.localScale.x) / 2f;
-        float menuHalfHeight = (buildMenuRect.rect.height * buildMenu.transform.localScale.y) / 2f;
+        float menuHalfWidth =
+            (buildMenuRect.rect.width *
+            buildMenu.transform.localScale.x) / 2f;
 
-        float minX = camPos.x - camHalfWidth + menuHalfWidth;
-        float maxX = camPos.x + camHalfWidth - menuHalfWidth;
-        float minY = camPos.y - camHalfHeight + menuHalfHeight;
-        float maxY = camPos.y + camHalfHeight - menuHalfHeight;
+        float menuHalfHeight =
+            (buildMenuRect.rect.height *
+            buildMenu.transform.localScale.y) / 2f;
 
-        float clampedX = Mathf.Clamp(desiredPos.x, minX, maxX);
-        float clampedY = Mathf.Clamp(desiredPos.y, minY, maxY);
+        float minX =
+            camPos.x - camHalfWidth + menuHalfWidth;
 
-        return new Vector3(clampedX, clampedY, desiredPos.z);
+        float maxX =
+            camPos.x + camHalfWidth - menuHalfWidth;
+
+        float minY =
+            camPos.y - camHalfHeight + menuHalfHeight;
+
+        float maxY =
+            camPos.y + camHalfHeight - menuHalfHeight;
+
+        float clampedX =
+            Mathf.Clamp(desiredPos.x, minX, maxX);
+
+        float clampedY =
+            Mathf.Clamp(desiredPos.y, minY, maxY);
+
+        return new Vector3(
+            clampedX,
+            clampedY,
+            desiredPos.z
+        );
     }
 
     public void CloseBuildMenu()
@@ -98,7 +129,8 @@ public class BuildManager : MonoBehaviour
             return;
 
         // Check turret index
-        if (towerIndex < 0 || towerIndex >= towerPrefabs.Length)
+        if (towerIndex < 0 ||
+            towerIndex >= towerPrefabs.Length)
         {
             Debug.LogError("Invalid turret index!");
             return;
@@ -107,23 +139,42 @@ public class BuildManager : MonoBehaviour
         // Check that a cost exists
         if (towerIndex >= towerCosts.Length)
         {
-            Debug.LogError("No cost assigned for turret " + towerIndex);
+            Debug.LogError(
+                "No cost assigned for turret " + towerIndex
+            );
+
             return;
         }
 
         int cost = towerCosts[towerIndex];
 
-        // Try to spend Paint Fuel
-        if (!LevelManager.main.SpendPaintFuel(cost))
+        // Spend Colour Fuel
+        if (!LevelManager.main.SpendColourFuel(cost))
         {
-            Debug.Log("Not enough Paint Fuel to build this turret!");
+            Debug.Log(
+                "Not enough Colour Fuel to build this turret!"
+            );
+
             return;
         }
 
         // Build the turret
-        selectedPlot.BuildTower(towerPrefabs[towerIndex]);
+        selectedPlot.BuildTower(
+            towerPrefabs[towerIndex]
+        );
 
-        Debug.Log("Turret built! Cost: " + cost + " Paint Fuel");
+        // Increase Colour Meter
+        LevelManager.main.IncreaseColourMeter(
+            turretMeterReward
+        );
+
+        Debug.Log(
+            "Turret built! Cost: " +
+            cost +
+            " Colour Fuel | +" +
+            turretMeterReward +
+            " Colour Meter"
+        );
 
         CloseBuildMenu();
     }
