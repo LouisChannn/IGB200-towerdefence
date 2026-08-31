@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Plot : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class Plot : MonoBehaviour
 
     private void OnMouseDown()
     {
+        // OnMouseDown fires from a physics raycast, independent of the UI -
+        // without this check, clicking a menu button that overlaps another
+        // plot underneath it would also trigger that plot's OnMouseDown
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+
         if (tower != null) return; // already has a turret, ignore clicks
 
         // Ask the BuildManager to pop the build menu open on this plot,

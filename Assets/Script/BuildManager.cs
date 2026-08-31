@@ -11,6 +11,7 @@ public class BuildManager : MonoBehaviour
 
     [Header("Attributes")]
     [SerializeField] private float menuYOffset = 0.75f; // nudges the menu above the plot so it doesn't sit on top of it
+    [SerializeField, Range(0f, 1f)] private float buildMenuTimeScale = 0.2f; // how slow time runs while the menu is open (0 = full pause)
 
     private Plot selectedPlot;
 
@@ -42,12 +43,14 @@ public class BuildManager : MonoBehaviour
         selectedPlot = plot;
         buildMenu.transform.position = plot.transform.position + new Vector3(0f, menuYOffset, 0f);
         buildMenu.SetActive(true);
+        Time.timeScale = buildMenuTimeScale;
     }
 
     public void CloseBuildMenu()
     {
         selectedPlot = null;
         buildMenu.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     // Hook this to each turret button's OnClick() in the Inspector, one per tower prefab index
