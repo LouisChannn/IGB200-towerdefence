@@ -74,7 +74,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6952493897349262422}
   - component: {fileID: 2404830422402419292}
-  - component: {fileID: 2406647172224227580}
   m_Layer: 0
   m_Name: Paintbrush
   m_TagString: Untagged
@@ -157,27 +156,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!114 &2406647172224227580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5115844752174959893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d42940cf1ff1dcd41852169405b8c0b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  turretRotationPoint: {fileID: 5573989967858903116}
-  enemyMask:
-    serializedVersion: 2
-    m_Bits: 64
-  bulletPrefab: {fileID: 0}
-  firePoint: {fileID: 0}
-  targetingRange: 3
-  rotationSpeed: 100
-  bps: 1
 --- !u!1 &5875699931446830070
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1876053423114508769}
+  - component: {fileID: -4593035208358561616}
   m_Layer: 0
   m_Name: PaintBrushTurret
   m_TagString: Untagged
@@ -210,3 +189,24 @@ Transform:
   - {fileID: 5573989967858903116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4593035208358561616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875699931446830070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42940cf1ff1dcd41852169405b8c0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Turret
+  turretRotationPoint: {fileID: 5573989967858903116}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 64
+  bulletPrefab: {fileID: 495664166128887263, guid: fd9ac52ca84edd1459c441c550b22275, type: 3}
+  firePoint: {fileID: 5692333741433613753}
+  targetingRange: 5
+  rotationSpeed: 400
+  bps: 1
