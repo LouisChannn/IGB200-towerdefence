@@ -7841,7 +7841,7 @@ MonoBehaviour:
   - {fileID: 1400281422}
   - {fileID: 1293796348}
   - {fileID: 1871305467}
-  paintfuel: 0
+  paintfuel: 100
 --- !u!4 &1109417056
 Transform:
   m_ObjectHideFlags: 0
@@ -7889,7 +7889,9 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 5875699931446830070, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
   buildMenu: {fileID: 538489539}
+  towerCosts: 320000000000000000000000
   menuYOffset: 0.75
+  buildMenuTimeScale: 0.2
 --- !u!4 &1121242984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3557781673313011230, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}

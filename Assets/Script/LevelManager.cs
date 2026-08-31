@@ -5,9 +5,11 @@ public class LevelManager : MonoBehaviour
     public static LevelManager main;
 
     public Transform startPoint;
-    public Transform [] path;
+    public Transform[] path;
 
-    public int paintfuel; //Game Currency
+    [Header("Paint Fuel")]
+    public int paintfuel = 100;
+
     private void Awake()
     {
         main = this;
@@ -15,7 +17,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        paintfuel = 100; //Starting game currency
+        paintfuel = 100;
     }
 
     public void IncreasePaintFuel(int amount)
@@ -29,13 +31,9 @@ public class LevelManager : MonoBehaviour
         {
             paintfuel -= amount;
             return true;
-            //buy item
         }
-        else
-        {
-            Debug.Log("not enough currency");
-            return false;
-        }
-    }
 
+        Debug.Log("Not enough Paint Fuel!");
+        return false;
+    }
 }
