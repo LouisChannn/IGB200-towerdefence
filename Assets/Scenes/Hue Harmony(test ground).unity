@@ -1929,6 +1929,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}
+--- !u!4 &227241539 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5573989967858903116, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
+  m_PrefabInstance: {fileID: 3069372917226635318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &228875455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3557781673313011230, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}
@@ -10215,6 +10220,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3557781673313011230, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}
   m_PrefabInstance: {fileID: 654863383}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1552248001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5692333741433613753, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
+  m_PrefabInstance: {fileID: 3069372917226635318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1553143744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3557781673313011230, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}
@@ -12014,6 +12024,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1354c35d0c804b64c9bb63aa9a4c9b2c, type: 3}
+--- !u!1 &1866333137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5875699931446830070, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
+  m_PrefabInstance: {fileID: 3069372917226635318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866333139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866333137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42940cf1ff1dcd41852169405b8c0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  turretRotationPoint: {fileID: 227241539}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 64
+  bulletPrefab: {fileID: 495664166128887263, guid: fd9ac52ca84edd1459c441c550b22275, type: 3}
+  firePoint: {fileID: 1552248001}
+  targetingRange: 3
+  rotationSpeed: 100
+  bps: 1
 --- !u!1 &1871305466
 GameObject:
   m_ObjectHideFlags: 0
@@ -13366,10 +13402,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2406647172224227580, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5875699931446830070, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1866333139}
   m_SourcePrefab: {fileID: 100100000, guid: 21ac66db4edcef6448e0e095d8770926, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
