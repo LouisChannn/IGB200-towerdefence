@@ -19,10 +19,12 @@ public class BuildManager : MonoBehaviour
     private float buildMenuTimeScale = 0.2f;
 
     private Plot selectedPlot;
+    private RectTransform buildMenuRect;
 
     private void Awake()
     {
         main = this;
+        buildMenuRect = buildMenu.GetComponent<RectTransform>();
         buildMenu.SetActive(false);
     }
 
@@ -49,12 +51,35 @@ public class BuildManager : MonoBehaviour
     {
         selectedPlot = plot;
 
-        buildMenu.transform.position =
-            plot.transform.position + new Vector3(0f, menuYOffset, 0f);
+        Vector3 desiredPos = plot.transform.position + new Vector3(0f, menuYOffset, 0f);
+        buildMenu.transform.position = ClampToScreen(desiredPos);
 
         buildMenu.SetActive(true);
 
         Time.timeScale = buildMenuTimeScale;
+    }
+
+    // Keeps the popup fully within the camera's view, regardless of which plot it's opened on
+    private Vector3 ClampToScreen(Vector3 desiredPos)
+    {
+        Camera cam = Camera.main;
+
+        float camHalfHeight = cam.orthographicSize;
+        float camHalfWidth = camHalfHeight * cam.aspect;
+        Vector3 camPos = cam.transform.position;
+
+        float menuHalfWidth = (buildMenuRect.rect.width * buildMenu.transform.localScale.x) / 2f;
+        float menuHalfHeight = (buildMenuRect.rect.height * buildMenu.transform.localScale.y) / 2f;
+
+        float minX = camPos.x - camHalfWidth + menuHalfWidth;
+        float maxX = camPos.x + camHalfWidth - menuHalfWidth;
+        float minY = camPos.y - camHalfHeight + menuHalfHeight;
+        float maxY = camPos.y + camHalfHeight - menuHalfHeight;
+
+        float clampedX = Mathf.Clamp(desiredPos.x, minX, maxX);
+        float clampedY = Mathf.Clamp(desiredPos.y, minY, maxY);
+
+        return new Vector3(clampedX, clampedY, desiredPos.z);
     }
 
     public void CloseBuildMenu()
