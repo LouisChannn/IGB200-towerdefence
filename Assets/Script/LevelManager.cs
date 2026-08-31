@@ -79,4 +79,11 @@ public class LevelManager : MonoBehaviour
     {
         return colourMeter >= maxColourMeter;
     }
+    public void FinishLevel()
+    {
+        Debug.Log("LEVEL COMPLETE! PLAYER WINS!");
+
+        // Stop the entire game
+        Time.timeScale = 0f;
+    }
 }

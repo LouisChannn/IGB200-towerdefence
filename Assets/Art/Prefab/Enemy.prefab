@@ -185,3 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41874517dd04dc14f997465d50b049e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  hitPoint: 2
+  colourFuelReward: 10
+  colourMeterReward: 1

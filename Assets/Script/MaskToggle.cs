@@ -12,6 +12,8 @@ public class MaskToggle : MonoBehaviour
     [Header("Reveal Button")]
     [SerializeField] private Button revealButton;
 
+    private bool levelFinished = false;
+
     private void Start()
     {
         // Reveal button starts disabled
@@ -23,10 +25,10 @@ public class MaskToggle : MonoBehaviour
 
     private void Update()
     {
-        if (LevelManager.main == null)
+        if (LevelManager.main == null || levelFinished)
             return;
 
-        // Enable button only when Colour Meter is full
+        // Enable Reveal button when Colour Meter is full
         if (revealButton != null)
         {
             revealButton.interactable =
@@ -49,6 +51,12 @@ public class MaskToggle : MonoBehaviour
             return;
         }
 
+        // Prevent the level from finishing twice
+        if (levelFinished)
+            return;
+
+        levelFinished = true;
+
         // Turn mask ON
         if (maskLayer != null)
         {
@@ -64,6 +72,15 @@ public class MaskToggle : MonoBehaviour
             }
         }
 
-        Debug.Log("LEVEL COMPLETE!");
+        // Disable reveal button
+        if (revealButton != null)
+        {
+            revealButton.interactable = false;
+        }
+
+        // Finish the level
+        LevelManager.main.FinishLevel();
+
+        Debug.Log("PLAYER WINS!");
     }
 }
