@@ -1068,7 +1068,7 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.96148354, b: 0.8066038, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2256,6 +2256,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b60601e7056d6459a2805e8987b24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  paintDotPrefab: {fileID: 0}
+  paintLayerParent: {fileID: 0}
+  sawLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  sprayCount: 12
+  sprayRadius: 0.75
 --- !u!4 &938622324
 Transform:
   m_ObjectHideFlags: 0

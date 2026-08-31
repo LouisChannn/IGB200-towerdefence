@@ -24,10 +24,16 @@ public class Plot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (tower != null) return;
+        if (tower != null) return; // already has a turret, ignore clicks
 
-        GameObject towerToBuild = BuildManager.main.GetSelectedTower();
-        tower = Instantiate(towerToBuild, transform.position, Quaternion.identity);
+        // Ask the BuildManager to pop the build menu open on this plot,
+        // instead of building the pre-selected tower immediately
+        BuildManager.main.OpenBuildMenu(this);
     }
 
+    // Called by BuildManager once the player picks a turret from the popup menu
+    public void BuildTower(GameObject towerPrefab)
+    {
+        tower = Instantiate(towerPrefab, transform.position, Quaternion.identity);
+    }
 }
