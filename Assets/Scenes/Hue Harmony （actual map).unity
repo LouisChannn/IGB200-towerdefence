@@ -13516,6 +13516,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buildmenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7031780346916960183, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_text
+      value: 'Paintbrush : 50 ColourFuel
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 8054917363211304898, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_Camera
       value: 
