@@ -19,6 +19,11 @@ public class Bullet : MonoBehaviour
         target = _target;
     }
 
+    public void SetDamage(int damage)
+    {
+        bulletDamage = damage;
+    }
+
     private void FixedUpdate()
     {
         if (!target) return;
@@ -31,30 +36,13 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        // Only create paint when hitting an enemy
         Health enemyHealth = other.gameObject.GetComponent<Health>();
 
         if (enemyHealth != null)
         {
-            // Create a random paint splatter
-            if (paintSplatterPrefabs != null &&
-                paintSplatterPrefabs.Length > 0)
-            {
-                int randomIndex =
-                    Random.Range(0, paintSplatterPrefabs.Length);
-
-                GameObject selectedSplatter =
-                    paintSplatterPrefabs[randomIndex];
-
-                Instantiate(
-                    selectedSplatter,
-                    transform.position,
-                    Quaternion.identity
-                );
-            }
-
-            // Damage enemy
-            enemyHealth.TakeDamage(bulletDamage);
+            // Hand this bullet's splatter set along - Health only spawns from it
+            // if this hit is the one that actually kills the enemy
+            enemyHealth.TakeDamage(bulletDamage, paintSplatterPrefabs);
         }
 
         // Destroy bullet

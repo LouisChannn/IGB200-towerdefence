@@ -10305,7 +10305,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b490f2a004d100b46ad888eab379c0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  enemyPrefab: {fileID: 8177133236108799066, guid: 6562fdac56789574289f0a166e3aab09, type: 3}
+  enemyTypes:
+  - prefab: {fileID: 8177133236108799066, guid: 6562fdac56789574289f0a166e3aab09, type: 3}
+    weight: 1
+  - prefab: {fileID: 8177133236108799066, guid: 17d045de3a768f34983a0829a810fe78, type: 3}
+    weight: 2
+  - prefab: {fileID: 8177133236108799066, guid: 74d831ac1ac70934d94c573056866957, type: 3}
+    weight: 1
+  - prefab: {fileID: 8177133236108799066, guid: 492259b7fa27cf64585b8a5915eeee66, type: 3}
+    weight: 30
+  wave1Enemy: {fileID: 8177133236108799066, guid: 6562fdac56789574289f0a166e3aab09, type: 3}
   baseEnemies: 8
   enemiesPerSecond: 2
   timeBetweenWaves: 3

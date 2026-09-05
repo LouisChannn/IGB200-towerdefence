@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
 
     private bool isDestroyed = false;
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, GameObject[] paintSplatterPrefabs = null)
     {
         hitPoint -= damage;
 
@@ -21,18 +21,21 @@ public class Health : MonoBehaviour
         {
             isDestroyed = true;
 
+            // Leave paint behind, chosen from whichever bullet landed the killing blow
+            if (paintSplatterPrefabs != null && paintSplatterPrefabs.Length > 0)
+            {
+                int randomIndex = Random.Range(0, paintSplatterPrefabs.Length);
+                Instantiate(paintSplatterPrefabs[randomIndex], transform.position, Quaternion.identity);
+            }
+
             // Enemy destroyed
             EnemySpawner.onEnemyDestroyed.Invoke();
 
             // Give Colour Fuel
-            LevelManager.main.IncreaseColourFuel(
-                colourFuelReward
-            );
+            LevelManager.main.IncreaseColourFuel(colourFuelReward);
 
             // Fill Colour Meter
-            LevelManager.main.IncreaseColourMeter(
-                colourMeterReward
-            );
+            LevelManager.main.IncreaseColourMeter(colourMeterReward);
 
             Destroy(gameObject);
         }
