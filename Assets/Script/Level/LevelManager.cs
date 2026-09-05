@@ -8,6 +8,11 @@ public class LevelManager : MonoBehaviour
     public Transform startPoint;
     public Transform[] path;
 
+    [Header("Player HP")]
+    [SerializeField] private int startingHP = 10;
+
+    public int playerHP { get; private set; }
+
     [Header("Colour Fuel")]
     [SerializeField] private int startingColourFuel = 100;
 
@@ -25,12 +30,60 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        playerHP = startingHP;
         colourFuel = startingColourFuel;
         colourMeter = 0;
     }
 
     // =========================
-    // COLOUR FUEL (turret currency)
+    // PLAYER HP
+    // =========================
+
+    public void TakePlayerDamage(int damage)
+    {
+        if (damage <= 0)
+            return;
+
+        playerHP -= damage;
+
+        // Prevent HP from going below 0
+        playerHP = Mathf.Max(playerHP, 0);
+
+        Debug.Log(
+            "Player took " +
+            damage +
+            " damage! HP remaining: " +
+            playerHP
+        );
+
+        if (playerHP <= 0)
+        {
+            PlayerDefeated();
+        }
+    }
+
+    public int GetPlayerHP()
+    {
+        return playerHP;
+    }
+
+    public int GetMaxPlayerHP()
+    {
+        return startingHP;
+    }
+
+    private void PlayerDefeated()
+    {
+        Debug.Log("PLAYER DEFEATED!");
+
+        // Stop the game
+        Time.timeScale = 0f;
+
+        // You can add a Game Over UI here later
+    }
+
+    // =========================
+    // COLOUR FUEL
     // =========================
 
     public void IncreaseColourFuel(int amount)
@@ -51,7 +104,7 @@ public class LevelManager : MonoBehaviour
     }
 
     // =========================
-    // COLOUR METER (ability to win the level)
+    // COLOUR METER
     // =========================
 
     public void IncreaseColourMeter(int amount)
@@ -79,6 +132,11 @@ public class LevelManager : MonoBehaviour
     {
         return colourMeter >= maxColourMeter;
     }
+
+    // =========================
+    // LEVEL COMPLETION
+    // =========================
+
     public void FinishLevel()
     {
         Debug.Log("LEVEL COMPLETE! PLAYER WINS!");
