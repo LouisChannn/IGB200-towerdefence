@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private int bulletDamage = 1;
 
     [Header("Paint")]
-    [SerializeField] private GameObject paintSplatterPrefab;
+    [SerializeField] private GameObject[] paintSplatterPrefabs;
 
     private Transform target;
 
@@ -36,11 +36,18 @@ public class Bullet : MonoBehaviour
 
         if (enemyHealth != null)
         {
-            // Create paint at the bullet's position
-            if (paintSplatterPrefab != null)
+            // Create a random paint splatter
+            if (paintSplatterPrefabs != null &&
+                paintSplatterPrefabs.Length > 0)
             {
+                int randomIndex =
+                    Random.Range(0, paintSplatterPrefabs.Length);
+
+                GameObject selectedSplatter =
+                    paintSplatterPrefabs[randomIndex];
+
                 Instantiate(
-                    paintSplatterPrefab,
+                    selectedSplatter,
                     transform.position,
                     Quaternion.identity
                 );

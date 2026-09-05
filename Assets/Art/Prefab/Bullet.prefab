@@ -173,4 +173,6 @@ MonoBehaviour:
   rb: {fileID: 3796140949201396465}
   bulletSpeed: 10
   bulletDamage: 1
-  paintSplatterPrefab: {fileID: 6790997724530759265, guid: 3b45f7b6d8b618d44ab3a7bd925776ce, type: 3}
+  paintSplatterPrefabs:
+  - {fileID: 9066830402547372700, guid: c296a251f2074284f8b8f99f6bc20575, type: 3}
+  - {fileID: 4285297137013622658, guid: 7747d003c4610ef4dbf989a61b6821f1, type: 3}
