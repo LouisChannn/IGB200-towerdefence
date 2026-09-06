@@ -27,6 +27,8 @@ public class EnemyMovement : MonoBehaviour
             {
                 EnemySpawner.onEnemyDestroyed.Invoke(); // Notify the EnemySpawner that an enemy has been destroyed
                 Destroy(gameObject);
+                //lose heath
+                LevelManager.onEnemyPassed.Invoke();
                 return;
             } else 
             {
