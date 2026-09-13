@@ -16,10 +16,12 @@ public class HealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log
         if (LevelManager.main.GetPlayerHP() < 10)
         {
             if (LevelManager.main.GetPlayerHP() == 8)
             {
+                
                 HealthCan.sprite = sprites[3];
             }
         }
