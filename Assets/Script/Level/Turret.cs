@@ -143,10 +143,4 @@ public class Turret : MonoBehaviour
         Debug.Log("Turret upgraded to level " + level + "! Cost: " + cost + " Colour Fuel");
         return true;
     }
-
-    private void OnDrawGizmosSelected()
-    {
-        Handles.color = Color.cyan;
-        Handles.DrawWireDisc(turretRotationPoint.position, Vector3.up, Application.isPlaying ? currentTargetingRange : targetingRange);
-    }
 }
