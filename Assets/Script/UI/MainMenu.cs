@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenuButtons;
     public GameObject settingsPanel;
-
+    public AudioSource menuMusic;
     public Toggle fullscreenToggle;
 
     private void Start()
@@ -39,6 +39,11 @@ public class MainMenu : MonoBehaviour
     public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
+    }
+
+    public void SetVolume(float volume)
+    {
+        menuMusic.volume = volume;
     }
 
     // QUIT
