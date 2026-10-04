@@ -12,6 +12,17 @@ public class Health : MonoBehaviour
     [SerializeField] private int colourMeterReward = 10;
 
     private bool isDestroyed = false;
+    private float colourFuelRewardMultiplier = 1f;
+
+    public void AddBonusHealth(int bonusHealth)
+    {
+        hitPoint += Mathf.Max(0, bonusHealth);
+    }
+
+    public void SetColourFuelRewardMultiplier(float multiplier)
+    {
+        colourFuelRewardMultiplier = Mathf.Max(0f, multiplier);
+    }
 
     public void TakeDamage(int damage, GameObject[] paintSplatterPrefabs = null)
     {
@@ -32,7 +43,10 @@ public class Health : MonoBehaviour
             EnemySpawner.onEnemyDestroyed.Invoke();
 
             // Give Colour Fuel
-            LevelManager.main.IncreaseColourFuel(colourFuelReward);
+            int fuelReward = colourFuelReward > 0
+                ? Mathf.Max(1, Mathf.RoundToInt(colourFuelReward * colourFuelRewardMultiplier))
+                : 0;
+            LevelManager.main.IncreaseColourFuel(fuelReward);
 
             // Fill Colour Meter
             LevelManager.main.IncreaseColourMeter(colourMeterReward);

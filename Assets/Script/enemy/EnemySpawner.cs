@@ -165,10 +165,25 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy(GameObject prefabToSpawn)
     {
-        Instantiate(
+        GameObject enemy = Instantiate(
             prefabToSpawn,
             LevelManager.main.startPoint.position,
             Quaternion.identity
         );
+
+        Health health = enemy.GetComponent<Health>();
+        if (health != null)
+        {
+            float rewardMultiplier = 1f / Mathf.Pow(
+                currentWave,
+                difficualtyScalitingFactor
+            );
+            health.SetColourFuelRewardMultiplier(rewardMultiplier);
+
+            int bonusHealth = Mathf.RoundToInt(
+                Mathf.Pow(currentWave, difficualtyScalitingFactor)
+            ) - 1;
+            health.AddBonusHealth(bonusHealth);
+        }
     }
 }
