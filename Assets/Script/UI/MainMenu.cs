@@ -8,22 +8,24 @@ public class MainMenu : MonoBehaviour
     public GameObject settingsPanel;
     public AudioSource menuMusic;
     public Toggle fullscreenToggle;
+    public Slider volumeSlider;
 
     private void Start()
     {
-        // Make the toggle match the current fullscreen state
-        fullscreenToggle.SetIsOnWithoutNotify(Screen.fullScreen);
+        RefreshSettingsControls();
     }
 
     // PLAY
     public void PlayGame()
     {
+        GameSettings.Save();
         SceneManager.LoadScene("Hue Harmony （actual map)");
     }
 
     // OPEN SETTINGS
     public void OpenSettings()
     {
+        RefreshSettingsControls();
         mainMenuButtons.SetActive(false);
         settingsPanel.SetActive(true);
     }
@@ -31,6 +33,7 @@ public class MainMenu : MonoBehaviour
     // CLOSE SETTINGS
     public void CloseSettings()
     {
+        GameSettings.Save();
         settingsPanel.SetActive(false);
         mainMenuButtons.SetActive(true);
     }
@@ -38,17 +41,35 @@ public class MainMenu : MonoBehaviour
     // FULLSCREEN
     public void SetFullscreen(bool isFullscreen)
     {
-        Screen.fullScreen = isFullscreen;
+        GameSettings.SetFullscreen(isFullscreen);
+        RefreshSettingsControls();
     }
 
     public void SetVolume(float volume)
     {
-        menuMusic.volume = volume;
+        GameSettings.SetVolume(volume);
+        RefreshSettingsControls();
+    }
+
+    private void RefreshSettingsControls()
+    {
+        GameSettings.Initialize();
+        if (fullscreenToggle != null)
+            fullscreenToggle.SetIsOnWithoutNotify(GameSettings.Fullscreen);
+
+        if (volumeSlider != null)
+        {
+            volumeSlider.minValue = 0f;
+            volumeSlider.maxValue = 1f;
+            volumeSlider.wholeNumbers = false;
+            volumeSlider.SetValueWithoutNotify(GameSettings.MasterVolume);
+        }
     }
 
     // QUIT
     public void QuitGame()
     {
+        GameSettings.Save();
         Application.Quit();
 
         Debug.Log("Game Quit");

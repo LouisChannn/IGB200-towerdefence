@@ -26,9 +26,14 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage, GameObject[] paintSplatterPrefabs = null)
     {
-        hitPoint -= damage;
+        if (isDestroyed || hitPoint <= 0 || damage <= 0)
+            return;
 
-        if (hitPoint <= 0 && !isDestroyed)
+        int appliedDamage = Mathf.Min(damage, hitPoint);
+        hitPoint -= appliedDamage;
+        FloatingDamageNumber.Show(appliedDamage, transform);
+
+        if (hitPoint <= 0)
         {
             isDestroyed = true;
 
