@@ -11710,7 +11710,7 @@ MonoBehaviour:
   - prefab: {fileID: 8177133236108799066, guid: 492259b7fa27cf64585b8a5915eeee66, type: 3}
     weight: 30
   wave1Enemy: {fileID: 8177133236108799066, guid: 6562fdac56789574289f0a166e3aab09, type: 3}
-  baseEnemies: 8
+  baseEnemies: 5
   enemiesPerSecond: 2
   timeBetweenWaves: 3
   difficualtyScalitingFactor: 0.75
@@ -11728,8 +11728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BuildManager
   towerPrefabs:
   - {fileID: 201390316970741481, guid: 89c4d4756b44c6743a66320320bccd1c, type: 3}
+  - {fileID: 7724341578384259037, guid: 5534a6e0e922cd04aba2d25d464aaff4, type: 3}
   buildMenu: {fileID: 1769031712}
-  towerCosts: 32000000
+  towerCosts: 3200000064000000
   turretMeterReward: 1
   menuYOffset: 0.75
   buildMenuTimeScale: 0.2
@@ -11934,6 +11935,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   settingsPanel: {fileID: 0}
   fullscreenToggle: {fileID: 0}
+  volumeSlider: {fileID: 0}
 --- !u!4 &1135736075
 Transform:
   m_ObjectHideFlags: 0
@@ -16405,6 +16407,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8697311153776698342, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697311153776698342, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3567798747369706735, guid: 522cbc8220f7b5a449c65d24be2d32f7, type: 3}
     - target: {fileID: 9051286046392440919, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_Type
       value: 0
