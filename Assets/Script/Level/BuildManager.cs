@@ -12,6 +12,11 @@ public class BuildManager : MonoBehaviour
     [Header("Turret Costs - Colour Fuel")]
     [SerializeField] private int[] towerCosts;
 
+    [Header("Placement Audio")]
+    [SerializeField] private AudioClip placementSound;
+    [SerializeField, Range(0f, 1f)] private float placementVolume = 0.65f;
+    private AudioSource placementAudio;
+
     [Header("Colour Meter")]
     [SerializeField] private int turretMeterReward = 10;
 
@@ -31,6 +36,15 @@ public class BuildManager : MonoBehaviour
         buildMenuRect = buildMenu.GetComponent<RectTransform>();
 
         buildMenu.SetActive(false);
+
+        if (placementSound != null)
+        {
+            var audioObject = new GameObject("Turret Placement Audio", typeof(AudioSource));
+            audioObject.transform.SetParent(transform, false);
+            placementAudio = audioObject.GetComponent<AudioSource>();
+            placementAudio.playOnAwake = false;
+            placementAudio.spatialBlend = 0f;
+        }
     }
 
     private void Update()
@@ -162,6 +176,9 @@ public class BuildManager : MonoBehaviour
         selectedPlot.BuildTower(
             towerPrefabs[towerIndex]
         );
+
+        if (placementAudio != null && placementSound != null)
+            placementAudio.PlayOneShot(placementSound, placementVolume);
 
         // Increase Colour Meter
         LevelManager.main.IncreaseColourMeter(

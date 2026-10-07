@@ -17,6 +17,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private int startingColourFuel = 100;
 
     public int colourFuel { get; private set; }
+    public bool UnlimitedColourFuel { get; private set; }
+    public float EnemySpeedMultiplier { get; private set; } = 1f;
 
     [Header("Colour Meter")]
     [SerializeField] private int maxColourMeter = 100;
@@ -93,6 +95,11 @@ public class LevelManager : MonoBehaviour
 
     public bool SpendColourFuel(int amount)
     {
+        if (amount < 0)
+            return false;
+        if (UnlimitedColourFuel)
+            return true;
+
         if (amount <= colourFuel)
         {
             colourFuel -= amount;
@@ -101,6 +108,21 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log("Not enough Colour Fuel!");
         return false;
+    }
+
+    public void SetUnlimitedColourFuel(bool enabled)
+    {
+        UnlimitedColourFuel = enabled;
+    }
+
+    public void SetSlowEnemies(bool enabled)
+    {
+        EnemySpeedMultiplier = enabled ? 0.25f : 1f;
+    }
+
+    public void RechargeColourBurst()
+    {
+        colourMeter = maxColourMeter;
     }
 
     // =========================
@@ -131,6 +153,15 @@ public class LevelManager : MonoBehaviour
     public bool IsColourMeterFull()
     {
         return colourMeter >= maxColourMeter;
+    }
+
+    public bool TryConsumeFullColourMeter()
+    {
+        if (maxColourMeter <= 0 || !IsColourMeterFull())
+            return false;
+
+        colourMeter = 0;
+        return true;
     }
 
     // =========================

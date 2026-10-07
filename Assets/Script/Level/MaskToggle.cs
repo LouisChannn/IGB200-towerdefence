@@ -12,11 +12,14 @@ public class MaskToggle : MonoBehaviour
     [Header("Reveal Button")]
     [SerializeField] private Button revealButton;
 
-    private bool levelFinished = false;
+    [Header("Colour Burst")]
+    [SerializeField, Min(1)] private int burstDamage = 50;
+    [SerializeField] private GameObject[] paintSplatterPrefabs;
+    private bool bursting;
 
     private void Start()
     {
-        // Reveal button starts disabled
+        // Colour Burst starts unavailable until the meter fills.
         if (revealButton != null)
         {
             revealButton.interactable = false;
@@ -25,14 +28,14 @@ public class MaskToggle : MonoBehaviour
 
     private void Update()
     {
-        if (LevelManager.main == null || levelFinished)
+        if (LevelManager.main == null)
             return;
 
-        // Enable Reveal button when Colour Meter is full
+        // Keep the ability unavailable while gameplay is paused.
         if (revealButton != null)
         {
             revealButton.interactable =
-                LevelManager.main.IsColourMeterFull();
+                !bursting && Time.timeScale > 0f && LevelManager.main.IsColourMeterFull();
         }
     }
 
@@ -44,43 +47,23 @@ public class MaskToggle : MonoBehaviour
             return;
         }
 
-        // Don't allow reveal until meter is full
-        if (!LevelManager.main.IsColourMeterFull())
-        {
-            Debug.Log("Colour Meter is not full!");
-            return;
-        }
-
-        // Prevent the level from finishing twice
-        if (levelFinished)
+        if (bursting || Time.timeScale <= 0f || !LevelManager.main.TryConsumeFullColourMeter())
             return;
 
-        levelFinished = true;
-
-        // Turn mask ON
-        if (maskLayer != null)
+        bursting = true;
+        if (revealButton != null) revealButton.interactable = false;
+        try
         {
-            maskLayer.SetActive(true);
-        }
-
-        // Turn all plots OFF
-        foreach (GameObject plot in plots)
-        {
-            if (plot != null)
+            foreach (Health enemy in FindObjectsByType<Health>())
             {
-                plot.SetActive(false);
+                if (enemy.isActiveAndEnabled)
+                    // Burst kills keep fuel and paint rewards, but cannot recharge themselves.
+                    enemy.TakeDamage(burstDamage, paintSplatterPrefabs, false);
             }
         }
-
-        // Disable reveal button
-        if (revealButton != null)
+        finally
         {
-            revealButton.interactable = false;
+            bursting = false;
         }
-
-        // Finish the level
-        LevelManager.main.FinishLevel();
-
-        Debug.Log("PLAYER WINS!");
     }
 }

@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
         colourFuelRewardMultiplier = Mathf.Max(0f, multiplier);
     }
 
-    public void TakeDamage(int damage, GameObject[] paintSplatterPrefabs = null)
+    public void TakeDamage(int damage, GameObject[] paintSplatterPrefabs = null, bool awardColourMeter = true)
     {
         if (isDestroyed || hitPoint <= 0 || damage <= 0)
             return;
@@ -54,7 +54,8 @@ public class Health : MonoBehaviour
             LevelManager.main.IncreaseColourFuel(fuelReward);
 
             // Fill Colour Meter
-            LevelManager.main.IncreaseColourMeter(colourMeterReward);
+            if (awardColourMeter)
+                LevelManager.main.IncreaseColourMeter(colourMeterReward);
 
             Destroy(gameObject);
         }

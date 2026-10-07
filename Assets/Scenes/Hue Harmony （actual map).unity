@@ -5109,6 +5109,10 @@ MonoBehaviour:
   - {fileID: 110312138}
   - {fileID: 1684414930}
   revealButton: {fileID: 1496621754}
+  burstDamage: 50
+  paintSplatterPrefabs:
+  - {fileID: 9066830402547372700, guid: c296a251f2074284f8b8f99f6bc20575, type: 3}
+  - {fileID: 4285297137013622658, guid: 7747d003c4610ef4dbf989a61b6821f1, type: 3}
 --- !u!4 &843642505
 Transform:
   m_ObjectHideFlags: 0
@@ -11631,6 +11635,7 @@ GameObject:
   - component: {fileID: 1109417055}
   - component: {fileID: 1109417057}
   - component: {fileID: 1109417058}
+  - component: {fileID: 1109417059}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -11729,11 +11734,28 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 201390316970741481, guid: 89c4d4756b44c6743a66320320bccd1c, type: 3}
   - {fileID: 7724341578384259037, guid: 5534a6e0e922cd04aba2d25d464aaff4, type: 3}
+  - {fileID: 6050041416679269171, guid: afcafaad171f458469954e42cd42048e, type: 3}
   buildMenu: {fileID: 1769031712}
-  towerCosts: 3200000064000000
+  towerCosts: 32000000640000007d000000
+  placementSound: {fileID: 8300000, guid: 0bae4b854886bdf49af887cf020b9e16, type: 3}
+  placementVolume: 0.65
   turretMeterReward: 1
   menuYOffset: 0.75
   buildMenuTimeScale: 0.2
+--- !u!114 &1109417059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109417053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2913621b6f56f3344bf41676cbd26795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AdminTestPanel
+  activationCode: HUE2026
+  uiFont: {fileID: 11400000, guid: fc358f19d9ab2534ebf52db021c21904, type: 2}
 --- !u!1 &1133023780
 GameObject:
   m_ObjectHideFlags: 0
@@ -16211,7 +16233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473276890965755468, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1779117795674338366, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_Pivot.x
@@ -16300,6 +16322,44 @@ PrefabInstance:
     - target: {fileID: 4521544281186579390, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681037941258187855, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681037941258187855, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_Color.g
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_text
+      value: 'Heavy Brush
+
+        125 Fuel'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578291942605497786, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5926549974111011055, guid: a7882ada9a833e64c94464e9f07720ae, type: 3}
       propertyPath: m_Type

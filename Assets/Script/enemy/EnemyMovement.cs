@@ -56,6 +56,7 @@ public class EnemyMovement : MonoBehaviour
         Vector2 direction =
             (target.position - transform.position).normalized;
 
-        rb.linearVelocity = direction * speed;
+        float multiplier = LevelManager.main != null ? LevelManager.main.EnemySpeedMultiplier : 1f;
+        rb.linearVelocity = direction * speed * multiplier;
     }
 }
