@@ -11734,7 +11734,7 @@ MonoBehaviour:
   towerPrefabs:
   - {fileID: 2956878305170729673, guid: 4dee848ca908fb4498674c01e9a3b676, type: 3}
   - {fileID: 5232056836577338123, guid: b196ccec5976fe64d95283f0172ddf9e, type: 3}
-  - {fileID: 7845726995655931254, guid: 1ac003b8a385d2443bbf9f271bb10320, type: 3}
+  - {fileID: 4320065730165686504, guid: 262b1b93bef29bc4ea354b2804e4e58b, type: 3}
   buildMenu: {fileID: 1769031712}
   towerCosts: 32000000640000007d000000
   placementSound: {fileID: 8300000, guid: 0bae4b854886bdf49af887cf020b9e16, type: 3}
