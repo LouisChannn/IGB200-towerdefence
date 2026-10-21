@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: -1667988960775224990}
   - component: {fileID: 7658780399532608994}
   - component: {fileID: -2380982837129135752}
-  - component: {fileID: 6151895926700226944}
   m_Layer: 0
   m_Name: Smoke VFX A1
   m_TagString: Untagged
@@ -32,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 458.80078, y: 418.72302, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -110,7 +109,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 348b54da8f7bc454eb049dc4abb6a5f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -161,6 +160,11 @@ MonoBehaviour:
   rb: {fileID: -1667988960775224990}
   bulletSpeed: 50
   bulletDamage: 1
+  lifetime: 5
+  startTurnSpeed: 360
+  turnRamp: 2000
+  snapDistance: 1.5
+  spriteAngleOffset: 0
   paintSplatterPrefabs: []
 --- !u!114 &-2380982837129135752
 MonoBehaviour:
@@ -174,17 +178,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc29791aa453ee41bf5b08558a03e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
---- !u!114 &6151895926700226944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5280542783398762529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8075137a27c984e8c7b284e4aa52af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  target: {fileID: 2538333609971579717}
-  speed: 10
