@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: fa89751d753ce4b48a5489f423b5541f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 100442467542273756
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_0
+  - first:
+      213: -8948946595318236464
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_1
+  - first:
+      213: -1817825571971127431
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_2
+  - first:
+      213: 2963200799255027255
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_3
+  - first:
+      213: -6015859374062334930
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_4
+  - first:
+      213: 787437775413300153
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_5
+  - first:
+      213: -2933667351189018103
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_6
+  - first:
+      213: 5629449745924236398
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_7
+  - first:
+      213: -2953719074738016036
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_8
+  - first:
+      213: -7496936906925325786
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_9
+  - first:
+      213: -2447071447625470504
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_10
+  - first:
+      213: 3915319027456591854
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_11
+  - first:
+      213: 528886187910458250
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_12
+  - first:
+      213: -1098776276305002152
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_13
+  - first:
+      213: -552103650347350829
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_14
+  - first:
+      213: 7676573012872615507
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_15
+  - first:
+      213: -1888303553240170340
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_16
+  - first:
+      213: -4870150986574657896
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_17
+  - first:
+      213: -9030437155146467731
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_18
+  - first:
+      213: -6181205553747858679
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_19
+  - first:
+      213: 8050919866640279278
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_20
+  - first:
+      213: -392606355698927985
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_21
+  - first:
+      213: 7078867567831074199
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_22
+  - first:
+      213: 7380492862964049171
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_23
+  - first:
+      213: 3569399413805554363
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_24
+  - first:
+      213: -4050723592418466692
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_25
+  - first:
+      213: -4167917004681112727
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_26
+  - first:
+      213: -6868680776900280662
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_27
+  - first:
+      213: -412809147693442954
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_28
+  - first:
+      213: -6817108463622870947
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_29
+  - first:
+      213: -7419125739646982370
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_30
+  - first:
+      213: -2366404449811729079
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_31
+  - first:
+      213: -617338869250861663
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_32
+  - first:
+      213: -4985040588303727572
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_33
+  - first:
+      213: 3239415522045813951
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_34
+  - first:
+      213: -8850176230013478818
+    second: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 55
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde883e54e7d46100800000000000000
+      internalID: 100442467542273756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 44
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da7d103c74fec380800000000000000
+      internalID: -8948946595318236464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 71
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9772a070649c5c6e0800000000000000
+      internalID: -1817825571971127431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 107
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73edfbd5d676f1920800000000000000
+      internalID: 2963200799255027255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 163
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c8f4ec5cf538ca0800000000000000
+      internalID: -6015859374062334930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 165
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbcb361c7a8dea00800000000000000
+      internalID: 787437775413300153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 127
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90aa73b56158947d0800000000000000
+      internalID: -2933667351189018103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 75
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e642ab2c7b2df1e40800000000000000
+      internalID: 5629449745924236398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 64
+        width: 104
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0f1f7a6284207d0800000000000000
+      internalID: -2953719074738016036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 143
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62243378a9785f790800000000000000
+      internalID: -7496936906925325786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 126
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd6848cb714a0ed0800000000000000
+      internalID: -2447071447625470504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 109
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7c0e549e1065630800000000000000
+      internalID: 3915319027456591854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 119
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b630d8f2bf65700800000000000000
+      internalID: 528886187910458250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 111
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c63b5ccc50c0f0800000000000000
+      internalID: -1098776276305002152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 115
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d489d9b7a88658f0800000000000000
+      internalID: -552103650347350829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 122
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3565f94ab7aa88a60800000000000000
+      internalID: 7676573012872615507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 107
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9003094ce56bc5e0800000000000000
+      internalID: -1888303553240170340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 81
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89603ba1b7fb96cb0800000000000000
+      internalID: -4870150986574657896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 84
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d667101b0417da280800000000000000
+      internalID: -9030437155146467731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 55
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bef2d5c42f73aa0800000000000000
+      internalID: -6181205553747858679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 70
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6aa3e86fc9abf60800000000000000
+      internalID: 8050919866640279278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f863100899e2d8af0800000000000000
+      internalID: -392606355698927985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 84
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795ca982c803d3260800000000000000
+      internalID: 7078867567831074199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 70
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3152744c727cc6660800000000000000
+      internalID: 7380492862964049171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 93
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba1e59fadd098130800000000000000
+      internalID: 3569399413805554363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 82
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c746a96ba50f8c7c0800000000000000
+      internalID: -4050723592418466692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 51
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9631caa11959826c0800000000000000
+      internalID: -4167917004681112727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 78
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaefd49a93b8da0a0800000000000000
+      internalID: -6868680776900280662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 63
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67853bf6448654af0800000000000000
+      internalID: -412809147693442954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 57
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58237e88f3c461a0800000000000000
+      internalID: -6817108463622870947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e176260b278f90990800000000000000
+      internalID: -7419125739646982370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 57
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945711ec0b7d82fd0800000000000000
+      internalID: -2366404449811729079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 68
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5d248b195ce67f0800000000000000
+      internalID: -617338869250861663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24804f2ff391dab0800000000000000
+      internalID: -4985040588303727572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46d6f0147b4fc20800000000000000
+      internalID: 3239415522045813951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58d07aeb9bdd2580800000000000000
+      internalID: -8850176230013478818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_0: 100442467542273756
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_1: -8948946595318236464
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_10: -2447071447625470504
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_11: 3915319027456591854
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_12: 528886187910458250
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_13: -1098776276305002152
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_14: -552103650347350829
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_15: 7676573012872615507
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_16: -1888303553240170340
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_17: -4870150986574657896
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_18: -9030437155146467731
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_19: -6181205553747858679
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_2: -1817825571971127431
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_20: 8050919866640279278
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_21: -392606355698927985
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_22: 7078867567831074199
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_23: 7380492862964049171
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_24: 3569399413805554363
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_25: -4050723592418466692
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_26: -4167917004681112727
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_27: -6868680776900280662
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_28: -412809147693442954
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_29: -6817108463622870947
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_3: 2963200799255027255
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_30: -7419125739646982370
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_31: -2366404449811729079
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_32: -617338869250861663
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_33: -4985040588303727572
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_34: 3239415522045813951
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_35: -8850176230013478818
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_4: -6015859374062334930
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_5: 787437775413300153
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_6: -2933667351189018103
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_7: 5629449745924236398
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_8: -2953719074738016036
+      vecteezy_smoke-explode-animation-sprite-sheet-vfx-steam_13194392-removebg-preview_9: -7496936906925325786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
