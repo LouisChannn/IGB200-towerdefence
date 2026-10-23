@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4360611622440545227}
   - component: {fileID: 3103250534256391071}
   - component: {fileID: -1667988960775224990}
+  - component: {fileID: 684210009955661123}
   - component: {fileID: 7658780399532608994}
   - component: {fileID: -2380982837129135752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Smoke VFX A1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +129,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 5280542783398762529}
   m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
@@ -178,3 +179,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc29791aa453ee41bf5b08558a03e39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!58 &684210009955661123
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280542783398762529}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.013333333

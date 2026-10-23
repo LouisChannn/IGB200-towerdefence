@@ -30,6 +30,10 @@ public class EnemyMovement : MonoBehaviour
             // Enemy has reached the END of the path
             if (pathIndex >= LevelManager.main.path.Length)
             {
+                Health health = GetComponent<Health>();
+                if (health != null && !health.TryResolveEscape())
+                    return;
+
                 // Deal damage to the player's HP
                 LevelManager.main.TakePlayerDamage(enemyWeight);
 

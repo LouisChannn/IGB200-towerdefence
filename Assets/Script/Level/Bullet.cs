@@ -26,6 +26,64 @@ public class Bullet : MonoBehaviour
     private Transform target;
     private Vector2 moveDir;
     private float age;
+    private int dotDamage;
+    private float dotDuration;
+    private float dotTickInterval;
+    private SpriteRenderer sourceArt;
+    private SpriteRenderer upgradedArt;
+    private bool sourceArtWasEnabled;
+
+    public void SetUpgradeAppearance(int damageRank)
+    {
+        damageRank = Mathf.Clamp(damageRank, 0, Turret.MaxUpgradePoints);
+        if (damageRank == 0)
+        {
+            if (upgradedArt != null) upgradedArt.enabled = false;
+            if (sourceArt != null) sourceArt.enabled = sourceArtWasEnabled;
+            return;
+        }
+
+        if (upgradedArt != null)
+        {
+            upgradedArt.transform.localScale = Vector3.one * (1f + damageRank * 0.07f);
+            upgradedArt.enabled = true;
+            sourceArt.enabled = false;
+            return;
+        }
+
+        SpriteRenderer source = null;
+        foreach (SpriteRenderer renderer in GetComponentsInChildren<SpriteRenderer>(true))
+        {
+            if (renderer.sprite != null)
+            {
+                source = renderer;
+                break;
+            }
+        }
+        if (source == null)
+            return;
+
+        // Enlarge the artwork only: projectile collision and movement stay unchanged.
+        var art = new GameObject("Upgraded Projectile Art");
+        art.layer = gameObject.layer;
+        art.transform.SetParent(source.transform, false);
+        art.transform.localScale = Vector3.one * (1f + damageRank * 0.07f);
+        SpriteRenderer visual = art.AddComponent<SpriteRenderer>();
+        visual.sprite = source.sprite;
+        visual.sharedMaterial = source.sharedMaterial;
+        visual.color = source.color;
+        visual.sortingLayerID = source.sortingLayerID;
+        visual.sortingOrder = source.sortingOrder;
+        visual.flipX = source.flipX;
+        visual.flipY = source.flipY;
+        visual.drawMode = source.drawMode;
+        visual.size = source.size;
+        visual.maskInteraction = source.maskInteraction;
+        sourceArt = source;
+        sourceArtWasEnabled = source.enabled;
+        upgradedArt = visual;
+        source.enabled = false;
+    }
 
     private void Awake()
     {
@@ -55,6 +113,13 @@ public class Bullet : MonoBehaviour
     public void SetDamage(int damage)
     {
         bulletDamage = damage;
+    }
+
+    public void SetDamageOverTime(int damagePerTick, float duration, float tickInterval)
+    {
+        dotDamage = Mathf.Max(0, damagePerTick);
+        dotDuration = Mathf.Max(0f, duration);
+        dotTickInterval = Mathf.Max(0.05f, tickInterval);
     }
 
     private void FixedUpdate()
@@ -96,6 +161,8 @@ public class Bullet : MonoBehaviour
             // Hand this bullet's splatter set along - Health only spawns from it
             // if this hit is the one that actually kills the enemy
             enemyHealth.TakeDamage(bulletDamage, paintSplatterPrefabs);
+            if (dotDamage > 0)
+                enemyHealth.ApplyDamageOverTime(dotDamage, dotDuration, dotTickInterval, paintSplatterPrefabs);
         }
 
         Destroy(gameObject);

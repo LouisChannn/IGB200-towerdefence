@@ -14,7 +14,7 @@ public sealed class FloatingDamageNumber : MonoBehaviour
     private Vector3 startPosition;
     private float elapsed;
 
-    public static void Show(int damage, Transform enemy)
+    public static void Show(int damage, Transform enemy, bool damageOverTime = false)
     {
         if (damage <= 0 || enemy == null)
             return;
@@ -24,7 +24,7 @@ public sealed class FloatingDamageNumber : MonoBehaviour
         if (enemySprite != null)
         {
             Bounds bounds = enemySprite.bounds;
-            position = new Vector3(bounds.center.x, bounds.max.y + 0.3f, enemy.position.z);
+            position = new Vector3(bounds.center.x, bounds.max.y + 0.42f, enemy.position.z);
         }
 
         // A separate object lets the killing hit finish animating after its enemy is removed.
@@ -32,10 +32,10 @@ public sealed class FloatingDamageNumber : MonoBehaviour
         popupObject.layer = enemy.gameObject.layer;
         popupObject.transform.position = position;
         FloatingDamageNumber popup = popupObject.AddComponent<FloatingDamageNumber>();
-        popup.Initialize(damage, enemySprite);
+        popup.Initialize(damage, enemySprite, damageOverTime);
     }
 
-    private void Initialize(int damage, SpriteRenderer enemySprite)
+    private void Initialize(int damage, SpriteRenderer enemySprite, bool damageOverTime)
     {
         startPosition = transform.position;
         viewCamera = Camera.main;
@@ -51,7 +51,9 @@ public sealed class FloatingDamageNumber : MonoBehaviour
         label.textWrappingMode = TextWrappingModes.NoWrap;
         label.overflowMode = TextOverflowModes.Overflow;
         label.rectTransform.sizeDelta = new Vector2(2f, 1f);
-        label.color = new Color(1f, 0.95f, 0.55f, 1f);
+        label.color = damageOverTime
+            ? new Color(1f, 0.52f, 0.18f, 1f)
+            : new Color(1f, 0.95f, 0.55f, 1f);
         textMaterial = new Material(label.fontSharedMaterial);
         textMaterial.SetColor(ShaderUtilities.ID_OutlineColor, new Color32(35, 31, 40, 255));
         textMaterial.SetFloat(ShaderUtilities.ID_OutlineWidth, 0.2f);

@@ -9,7 +9,7 @@ public class ColourFuelUI : MonoBehaviour
     {
         if (colourFuelText == null) return;
         colourFuelText.fontSizeMax = colourFuelText.fontSize;
-        colourFuelText.fontSizeMin = 18;
+        colourFuelText.fontSizeMin = Mathf.Min(colourFuelText.fontSizeMin, colourFuelText.fontSizeMax);
         colourFuelText.enableAutoSizing = true;
     }
 
@@ -19,8 +19,8 @@ public class ColourFuelUI : MonoBehaviour
         {
             colourFuelText.text =
                 LevelManager.main.UnlimitedColourFuel
-                    ? "Fuel: Unlimited"
-                    : "Colour Fuel: " + LevelManager.main.colourFuel;
+                    ? "Unlimited"
+                    : LevelManager.main.colourFuel.ToString();
         }
     }
 }

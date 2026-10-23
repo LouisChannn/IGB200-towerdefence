@@ -173,19 +173,20 @@ MonoBehaviour:
   turretRotationPoint: {fileID: 4153479520434548739}
   enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   bulletPrefab: {fileID: 495664166128887263, guid: 2c8adfa19f0a9374184a1de255400dbd, type: 3}
   firePoint: {fileID: 4554950138153742653}
   targetingRange: 5
   rotationSpeed: 400
   bps: 0.2
-  baseDamage: 8
-  maxLevel: 3
-  baseUpgradeCost: 50
-  upgradeCostMultiplier: 1.5
+  baseDamage: 80
   rangeMultiplierPerLevel: 1.1
   fireRateMultiplierPerLevel: 1.15
   damageMultiplierPerLevel: 1.25
+  usesDamageOverTime: 0
+  baseDotDamage: 3
+  dotDuration: 3
+  dotTickInterval: 1
 --- !u!212 &4037390410051511317
 SpriteRenderer:
   serializedVersion: 3

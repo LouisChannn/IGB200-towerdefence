@@ -13,7 +13,7 @@ public class MaskToggle : MonoBehaviour
     [SerializeField] private Button revealButton;
 
     [Header("Colour Burst")]
-    [SerializeField, Min(1)] private int burstDamage = 50;
+    [SerializeField, Min(1)] private int burstDamage = 500;
     [SerializeField] private GameObject[] paintSplatterPrefabs;
     private bool bursting;
 

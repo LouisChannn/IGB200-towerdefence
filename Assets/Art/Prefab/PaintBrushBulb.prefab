@@ -55,13 +55,14 @@ MonoBehaviour:
   targetingRange: 5
   rotationSpeed: 400
   bps: 1
-  baseDamage: 1
-  maxLevel: 3
-  baseUpgradeCost: 50
-  upgradeCostMultiplier: 1.5
+  baseDamage: 10
   rangeMultiplierPerLevel: 1.1
   fireRateMultiplierPerLevel: 1.15
   damageMultiplierPerLevel: 1.25
+  usesDamageOverTime: 0
+  baseDotDamage: 3
+  dotDuration: 3
+  dotTickInterval: 1
 --- !u!212 &6266902735234525858
 SpriteRenderer:
   serializedVersion: 3

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -12,12 +13,11 @@ public class PauseMenu : MonoBehaviour
 
     private bool isPaused = false;
     private bool fallbackSettingsOpen = false;
+    private float resumeTimeScale = 1f;
 
     private void Start()
     {
-        // Make sure game starts normally
-        Time.timeScale = 1f;
-
+        // Tutorial and level state own the initial game clock.
         SetActiveIfAssigned(pauseMenu, false);
         SetActiveIfAssigned(settingsPanel, false);
 
@@ -47,23 +47,37 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
+        if (isPaused)
+            return;
+
+        // Closing a slowed turret menu restores its normal running speed first.
+        if (BuildManager.main != null)
+            BuildManager.main.CloseBuildMenu();
+        resumeTimeScale = Time.timeScale;
+
         SetActiveIfAssigned(pauseMenu, true);
         SetActiveIfAssigned(settingsPanel, false);
         fallbackSettingsOpen = false;
 
         Time.timeScale = 0f;
         isPaused = true;
+        FocusFirstButton(pauseMenu);
     }
 
     public void ResumeGame()
     {
+        if (!isPaused)
+            return;
+
         GameSettings.Save();
         SetActiveIfAssigned(pauseMenu, false);
         SetActiveIfAssigned(settingsPanel, false);
         fallbackSettingsOpen = false;
 
-        Time.timeScale = 1f;
+        Time.timeScale = resumeTimeScale;
         isPaused = false;
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void OpenSettings()
@@ -79,6 +93,7 @@ public class PauseMenu : MonoBehaviour
         {
             fallbackSettingsOpen = true;
         }
+        FocusFirstButton(settingsPanel);
     }
 
     public void CloseSettings()
@@ -87,6 +102,7 @@ public class PauseMenu : MonoBehaviour
         SetActiveIfAssigned(settingsPanel, false);
         SetActiveIfAssigned(pauseMenu, true);
         fallbackSettingsOpen = false;
+        FocusFirstButton(pauseMenu);
     }
 
     public void SetFullscreen(bool isFullscreen)
@@ -119,6 +135,8 @@ public class PauseMenu : MonoBehaviour
     public void GoToMainMenu()
     {
         GameSettings.Save();
+        isPaused = false;
+        fallbackSettingsOpen = false;
         Time.timeScale = 1f;
 
         SceneManager.LoadScene("Main Menu");
@@ -139,6 +157,26 @@ public class PauseMenu : MonoBehaviour
         if (target != null)
         {
             target.SetActive(active);
+        }
+    }
+
+    private void FocusFirstButton(GameObject panel)
+    {
+        EventSystem eventSystem = EventSystem.current;
+        if (eventSystem == null)
+            return;
+
+        eventSystem.SetSelectedGameObject(null);
+        if (panel == null)
+            return;
+
+        foreach (Button button in panel.GetComponentsInChildren<Button>())
+        {
+            if (button.IsActive() && button.IsInteractable())
+            {
+                eventSystem.SetSelectedGameObject(button.gameObject);
+                return;
+            }
         }
     }
 

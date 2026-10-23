@@ -7,11 +7,10 @@ public class PlayerHPUI : MonoBehaviour
 
     private void Update()
     {
-        if (LevelManager.main == null)
+        if (LevelManager.main == null || hpText == null)
             return;
 
-        hpText.text =
-            "HP: " + LevelManager.main.GetPlayerHP();
+        hpText.text = LevelManager.main.GetPlayerHP().ToString();
     }
 }
 

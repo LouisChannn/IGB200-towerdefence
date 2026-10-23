@@ -32,6 +32,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 511348856937574941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &791548967654321123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232056836577338123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad42d45c8a504c6c8cd288be60b8afaa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::TurretSprayAttack
+  muzzle: {fileID: 2799418988174513760}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 64
+  sprayDuration: 0.5
+  coneAngle: 40
+  sprayFrames:
+  - {fileID: 21300000, guid: efa3e9b264c3ba94da7ef557e3af735f, type: 3}
+  - {fileID: 21300000, guid: cd721d7dcd214764d9511be18ced23b5, type: 3}
+  - {fileID: 21300000, guid: 0ed07a009fa9c7241887414befcd2fe4, type: 3}
+  - {fileID: 21300000, guid: e4114d081106d494594e3d2dddeb3d21, type: 3}
+  - {fileID: 21300000, guid: 7ee68b5c9536599478cff73db53c2b2d, type: 3}
+  - {fileID: 21300000, guid: 30551fcf98ae573499faba0d528dbfec, type: 3}
+  - {fileID: 21300000, guid: 8f4d321d77f8bc948a975da0cc55b4e1, type: 3}
+  - {fileID: 21300000, guid: ab0676f4fb00bda4782682a6de02bd5a, type: 3}
+  - {fileID: 21300000, guid: eedeb12a41a7b934a8dcf946406e9593, type: 3}
+  sprayMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  sortingOrder: 16
 --- !u!212 &3565598556401757762
 SpriteRenderer:
   serializedVersion: 3
@@ -103,6 +133,7 @@ GameObject:
   - component: {fileID: 6664847611983241190}
   - component: {fileID: 4810303735375013459}
   - component: {fileID: 5560906958406253887}
+  - component: {fileID: 791548967654321123}
   m_Layer: 0
   m_Name: flame thrower turret_0
   m_TagString: Untagged
@@ -144,16 +175,18 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 5280542783398762529, guid: 38b26c0c42f1edc4faa8b86deeac27ae, type: 3}
   firePoint: {fileID: 2799418988174513760}
+  sprayAttack: {fileID: 791548967654321123}
   targetingRange: 5
   rotationSpeed: 400
   bps: 1
-  baseDamage: 1
-  maxLevel: 3
-  baseUpgradeCost: 50
-  upgradeCostMultiplier: 1.5
+  baseDamage: 10
   rangeMultiplierPerLevel: 1.1
   fireRateMultiplierPerLevel: 1.15
   damageMultiplierPerLevel: 1.25
+  usesDamageOverTime: 1
+  baseDotDamage: 3
+  dotDuration: 3
+  dotTickInterval: 1
 --- !u!212 &5560906958406253887
 SpriteRenderer:
   serializedVersion: 3
@@ -272,7 +305,7 @@ Transform:
   m_GameObject: {fileID: 7651146702332346631}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

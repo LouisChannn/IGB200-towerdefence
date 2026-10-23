@@ -6,17 +6,22 @@ public class Plot : MonoBehaviour
     [Header("References")]
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private Color hoverColor;
+
     private GameObject tower;
+    private int towerBuildCost;
     private Color startColor;
+
+    public bool HasTower => tower != null;
+    public int TowerBuildCost => HasTower ? towerBuildCost : 0;
+    public Turret TowerTurret => HasTower ? tower.GetComponent<Turret>() : null;
 
     private void Start()
     {
         startColor = sr.color;
     }
+
     private void OnMouseEnter()
     {
-        if (tower != null) return; // already built here, no need to hint it's clickable
-
         sr.color = hoverColor;
     }
 
@@ -27,21 +32,42 @@ public class Plot : MonoBehaviour
 
     private void OnMouseDown()
     {
-        // OnMouseDown fires from a physics raycast, independent of the UI -
-        // without this check, clicking a menu button that overlaps another
-        // plot underneath it would also trigger that plot's OnMouseDown
-        if (EventSystem.current.IsPointerOverGameObject()) return;
+        if (Time.timeScale <= 0f || BuildManager.main == null)
+            return;
 
-        if (tower != null) return; // already has a turret, ignore clicks
+        // UI clicks must not also select a plot underneath the menu.
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+            return;
 
-        // Ask the BuildManager to pop the build menu open on this plot,
-        // instead of building the pre-selected tower immediately
-        BuildManager.main.OpenBuildMenu(this);
+        BuildManager.main.SelectPlot(this);
     }
 
-    // Called by BuildManager once the player picks a turret from the popup menu
-    public void BuildTower(GameObject towerPrefab)
+    public bool BuildTower(GameObject towerPrefab, int buildCost)
     {
+        if (HasTower || towerPrefab == null || buildCost < 0)
+            return false;
+
         tower = Instantiate(towerPrefab, transform.position, Quaternion.identity);
+        towerBuildCost = buildCost;
+        sr.color = startColor;
+        return true;
+    }
+
+    public bool TrySellTower(out int originalBuildCost)
+    {
+        originalBuildCost = 0;
+        if (!HasTower)
+            return false;
+
+        GameObject soldTower = tower;
+        originalBuildCost = towerBuildCost;
+
+        // Clear ownership before paying the refund so a second click cannot sell twice.
+        tower = null;
+        towerBuildCost = 0;
+        soldTower.SetActive(false);
+        Destroy(soldTower);
+        sr.color = startColor;
+        return true;
     }
 }
