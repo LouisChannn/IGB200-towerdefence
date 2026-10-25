@@ -12,6 +12,11 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private int startingHP = 10;
 
     public int playerHP { get; private set; }
+    public bool IsGameOver { get; private set; }
+    public bool PlayerWon { get; private set; }
+
+    [Header("Level Result")]
+    [SerializeField] private LevelResultUI resultUI;
 
     [Header("Colour Fuel")]
     [SerializeField] private int startingColourFuel = 100;
@@ -43,7 +48,7 @@ public class LevelManager : MonoBehaviour
 
     public void TakePlayerDamage(int damage)
     {
-        if (damage <= 0)
+        if (IsGameOver || damage <= 0)
             return;
 
         playerHP -= damage;
@@ -76,12 +81,24 @@ public class LevelManager : MonoBehaviour
 
     private void PlayerDefeated()
     {
-        Debug.Log("PLAYER DEFEATED!");
+        EndLevel(false);
+    }
 
-        // Stop the game
+    private void EndLevel(bool victory)
+    {
+        if (IsGameOver)
+            return;
+
+        // Resolve the outcome once before closing menus or stopping the clock.
+        IsGameOver = true;
+        PlayerWon = victory;
         Time.timeScale = 0f;
+        if (BuildManager.main != null)
+            BuildManager.main.CloseBuildMenu();
+        if (resultUI != null)
+            resultUI.Show(victory);
 
-        // You can add a Game Over UI here later
+        Debug.Log(victory ? "LEVEL COMPLETE! PLAYER WINS!" : "PLAYER DEFEATED!");
     }
 
     // =========================
@@ -170,9 +187,6 @@ public class LevelManager : MonoBehaviour
 
     public void FinishLevel()
     {
-        Debug.Log("LEVEL COMPLETE! PLAYER WINS!");
-
-        // Stop the entire game
-        Time.timeScale = 0f;
+        EndLevel(playerHP > 0);
     }
 }

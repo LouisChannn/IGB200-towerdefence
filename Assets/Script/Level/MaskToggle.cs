@@ -39,6 +39,7 @@ public class MaskToggle : MonoBehaviour
         }
     }
 
+
     public void ToggleMask()
     {
         if (LevelManager.main == null)
@@ -47,23 +48,40 @@ public class MaskToggle : MonoBehaviour
             return;
         }
 
-        if (bursting || Time.timeScale <= 0f || !LevelManager.main.TryConsumeFullColourMeter())
+        if (LevelManager.main.IsGameOver)
+            return;
+
+        if (bursting || Time.timeScale <= 0f ||
+            !LevelManager.main.TryConsumeFullColourMeter())
             return;
 
         bursting = true;
-        if (revealButton != null) revealButton.interactable = false;
+
+        if (revealButton != null)
+            revealButton.interactable = false;
+
         try
         {
+            // Colour Burst damages all active enemies
             foreach (Health enemy in FindObjectsByType<Health>())
             {
                 if (enemy.isActiveAndEnabled)
-                    // Burst kills keep fuel and paint rewards, but cannot recharge themselves.
-                    enemy.TakeDamage(burstDamage, paintSplatterPrefabs, false);
+                {
+                    enemy.TakeDamage(
+                        burstDamage,
+                        paintSplatterPrefabs,
+                        false
+                    );
+                }
             }
+
+            // NEW: Automatically win when Colour Burst activates
+            LevelManager.main.FinishLevel();
         }
         finally
         {
             bursting = false;
         }
     }
+
 }

@@ -26,6 +26,9 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
+        if (LevelManager.main != null && LevelManager.main.IsGameOver)
+            return;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             // If settings are currently open,
@@ -47,6 +50,9 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
+        if (LevelManager.main != null && LevelManager.main.IsGameOver)
+            return;
+
         if (isPaused)
             return;
 
@@ -66,6 +72,9 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeGame()
     {
+        if (LevelManager.main != null && LevelManager.main.IsGameOver)
+            return;
+
         if (!isPaused)
             return;
 
@@ -82,6 +91,9 @@ public class PauseMenu : MonoBehaviour
 
     public void OpenSettings()
     {
+        if (LevelManager.main != null && LevelManager.main.IsGameOver)
+            return;
+
         RefreshSettingsControls();
         SetActiveIfAssigned(pauseMenu, false);
 
@@ -98,6 +110,9 @@ public class PauseMenu : MonoBehaviour
 
     public void CloseSettings()
     {
+        if (LevelManager.main != null && LevelManager.main.IsGameOver)
+            return;
+
         GameSettings.Save();
         SetActiveIfAssigned(settingsPanel, false);
         SetActiveIfAssigned(pauseMenu, true);
@@ -130,6 +145,16 @@ public class PauseMenu : MonoBehaviour
             volumeSlider.wholeNumbers = false;
             volumeSlider.SetValueWithoutNotify(GameSettings.MasterVolume);
         }
+    }
+
+    public void CloseForLevelEnd()
+    {
+        SetActiveIfAssigned(pauseMenu, false);
+        SetActiveIfAssigned(settingsPanel, false);
+        fallbackSettingsOpen = false;
+        isPaused = false;
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(null);
     }
 
     public void GoToMainMenu()

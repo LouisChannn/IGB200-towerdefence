@@ -44,6 +44,7 @@ public class EnemySpawner : MonoBehaviour
     private bool isWaitingForWave;
     private float secondsUntilWave;
     private int spawnIndex;
+    private bool campaignComplete;
 
     public int CurrentWave => currentWave;
     public bool LevelStarted => levelStarted;
@@ -78,7 +79,7 @@ public class EnemySpawner : MonoBehaviour
     private void AdvanceWave(float deltaTime)
     {
         // Don't do anything until the tutorial is finished
-        if (!levelStarted || deltaTime <= 0f)
+        if (!levelStarted || campaignComplete || deltaTime <= 0f || (LevelManager.main != null && LevelManager.main.IsGameOver))
             return;
 
         if (isWaitingForWave)
@@ -119,7 +120,7 @@ public class EnemySpawner : MonoBehaviour
     // Called by TutorialUI when the player finishes the tutorial
     public void StartLevel()
     {
-        if (levelStarted)
+        if (levelStarted || campaignComplete || (LevelManager.main != null && LevelManager.main.IsGameOver))
             return;
 
         levelStarted = true;
@@ -155,20 +156,26 @@ public class EnemySpawner : MonoBehaviour
         PrepareUpcomingWave(currentWave + 1);
     }
 
+
     private void EndWave()
     {
+        if (campaignComplete)
+            return;
+
         isSpawning = false;
         timeSinceLastspawn = 0f;
+
+        // Advance to the next wave indefinitely
         currentWave++;
 
         BeginWaveCountdown();
     }
 
+
     private void PrepareUpcomingWave(int waveNumber)
     {
         BuildWaveQueue(waveNumber, preparedWaveQueue);
         preparedWaveNumber = waveNumber;
-        upcomingPreview.Clear();
         foreach (GameObject prefab in preparedWaveQueue)
         {
             int index = -1;
