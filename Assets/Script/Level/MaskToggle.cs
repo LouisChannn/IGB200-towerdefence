@@ -75,7 +75,9 @@ public class MaskToggle : MonoBehaviour
                 }
             }
 
-            // NEW: Automatically win when Colour Burst activates
+            // Apply the stencil after the burst creates its paint, then reveal the result.
+            if (maskLayer != null)
+                maskLayer.SetActive(true);
             LevelManager.main.FinishLevel();
         }
         finally
