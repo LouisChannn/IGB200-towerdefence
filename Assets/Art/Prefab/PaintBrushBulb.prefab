@@ -55,7 +55,7 @@ MonoBehaviour:
   targetingRange: 5
   rotationSpeed: 400
   bps: 1
-  baseDamage: 10
+  baseDamage: 15
   rangeMultiplierPerLevel: 1.1
   fireRateMultiplierPerLevel: 1.15
   damageMultiplierPerLevel: 1.25
