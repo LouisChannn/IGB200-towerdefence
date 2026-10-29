@@ -8,7 +8,11 @@ public class TutorialUI : MonoBehaviour
     [Header("Level")]
     [SerializeField] private EnemySpawner enemySpawner;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip gameplayMusicClip;
+
     private int currentPage = 0;
+    private bool tutorialFinished;
 
     private void Start()
     {
@@ -43,6 +47,21 @@ public class TutorialUI : MonoBehaviour
 
     private void FinishTutorial()
     {
+        if (tutorialFinished)
+            return;
+
+        tutorialFinished = true;
+
+        if (gameplayMusicClip != null)
+        {
+            AudioSource musicSource = new GameObject("Gameplay Music", typeof(AudioSource))
+                .GetComponent<AudioSource>();
+            musicSource.clip = gameplayMusicClip;
+            musicSource.loop = true;
+            musicSource.spatialBlend = 0f;
+            musicSource.Play();
+        }
+
         // Hide tutorial
         gameObject.SetActive(false);
 

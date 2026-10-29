@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 6540bc889def3be40910cef540927223
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemySpawner: {instanceID: 0}
+  - gameplayMusicClip: {fileID: 8300000, guid: b71658db6f96c114f8c071030a4f89fe, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

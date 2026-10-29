@@ -9274,6 +9274,7 @@ MonoBehaviour:
   - {fileID: 1585433365}
   - {fileID: 1133307512}
   enemySpawner: {fileID: 1109417057}
+  gameplayMusicClip: {fileID: 8300000, guid: b71658db6f96c114f8c071030a4f89fe, type: 3}
 --- !u!114 &900158871
 MonoBehaviour:
   m_ObjectHideFlags: 0
